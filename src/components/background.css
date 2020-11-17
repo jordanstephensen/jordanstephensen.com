@@ -1,0 +1,9 @@
+.background {
+    position: fixed;
+    height: 1px;
+    z-index: -1;
+}
+
+svg {
+    overflow: visible;
+}

@@ -1,0 +1,46 @@
+.header {
+    position: fixed;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0px auto;
+    max-width: 960px;  
+}
+
+siteTitle a {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    box-shadow: none;
+    padding: 0px;
+  }
+
+  siteTitle a:hover {
+      color: blue;
+      box-shadow: none;
+  }
+
+  siteTitle a:active {
+    color: black;
+}
+
+
+  navLinks {
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    left: 0;
+
+  }
+
+  navLinks a {
+    margin: 5px;
+  }
+
+
+
