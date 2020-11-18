@@ -1,16 +1,3 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Jordan Stephensen
-</h1>
+# Hello 👋
 
-
-## 🚀 Hello
-
-I'm Jordan
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+I'm Jordan. I'm a product designer at Bold Commerce. Also dabble in branding and type design.
