@@ -9,7 +9,7 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <PageTitle title="Get in touch"/>
-    <h3><a href="mailto:jordanstephensen@gmail.com">js@jordanstephensen.com</a><br />
+    <h3><a href="mailto:jordanstephensen@gmail.com" target="_blank" rel="noreferrer">js@jordanstephensen.com</a><br />
       +1 204 688 4741
     </h3>
   </Layout>

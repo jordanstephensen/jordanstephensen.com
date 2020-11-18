@@ -14,28 +14,28 @@ const Footer = ({ children }) => (
       </h4>
       <div class="footerlinks"></div>
         <footerlinks>
-          <a href="/">
+          <a href="https://www.twitter.com/jwstephensen" target="_blank" rel="noreferrer">
             <img 
               class="twitter"
               src={twitter} 
               alt="twitter logo"
             />
           </a>
-          <a href="/">
+          <a href="https://www.instagram.com/jordanstephensen" target="_blank" rel="noreferrer">
             <img 
               class="instagram"
               src={instagram} 
               alt="instagram logo"
             />
           </a>
-          <a href="/">
+          <a href="https://www.github.com/jordanstephensen" target="_blank" rel="noreferrer">
             <img 
               class="github"
               src={github} 
               alt="github logo"
             />
           </a>
-          <a href="/">
+          <a href="https://www.are.na/jordan-stephensen" target="_blank" rel="noreferrer">
             <img 
               class="arena"
               src={arena} 

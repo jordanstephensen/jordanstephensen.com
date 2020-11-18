@@ -12,8 +12,8 @@ const IndexPage = () => (
     <h1>Jordan Stephensen</h1>
     <br />
     <h3>Hello! I'm a designer from Winnipeg. I'm mainly focused on interface design, design systems, branding, and type design.<br /><br />
-Currently doing product design at <a >Bold Commerce</a><br /><br />
-Taking on work on a limited basis. <a >Contact me</a> for work samples or to discuss rates.</h3><br />
+Currently doing product design at <a href="https://www.boldcommerce.com" target="_blank" rel="noreferrer">Bold Commerce</a><br /><br />
+Taking on work on a limited basis. <a href="mailto:jordanstephensen@gmail.com" target="_blank" rel="noreferrer">Contact me</a> for work samples or to discuss rates.</h3><br />
 
   </Layout>
 )
