@@ -1,20 +1,22 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import './header.css'
 
 const Header = ({ children }) => (
-    <div className="header">
-      <siteTitle >
-        <Link to="/">
-          JORDAN STEPHENSEN
-        </Link>
-      </siteTitle>
-      <navLinks>
-        <Link to="/">ABOUT</Link>
-        <Link to="/work">WORK</Link>
-        <Link to="/">CONTACT</Link>
-      </navLinks>
+    <div class="header">
+      <h4 class="sitetitle">
+          <Link to="/">
+            JORDAN STEPHENSEN
+          </Link>
+        </h4>
+      <div className="spacer"></div>
+      <div className="navLinks">
+        <navlinks>
+          <Link to="/about">ABOUT</Link>
+          <Link to="/work">WORK</Link>
+          <Link to="/contact">CONTACT</Link>
+        </navlinks>
+      </div>
     </div>
 )
 

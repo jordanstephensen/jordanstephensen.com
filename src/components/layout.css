@@ -4,9 +4,33 @@ html, body {
   height: 100%;
 }
 
+@keyframes colorChange {
+  0%{stroke:#ff0000}
+  33%{stroke:#0000ff }
+  66%{stroke:#000000 }
+  100%{stroke: #ff0000}
+}
+
+.animation {
+  animation: colorChange 30s infinite;
+  width:100%;
+  height:100%;
+}
+
+#background {
+  width: 100%; 
+  position: absolute; 
+  left: 0px; 
+  right: 0px; 
+  z-index: -1;
+}
+
+.stretch {
+  width:100%;
+  height:100%;
+}
+
 body {
-  background-image: url(../images/js-logo.svg);
-  background-size: cover;
   display: flex;
   flex-direction: column;
   font-family: 'Cormorant Garamond', serif;
@@ -24,28 +48,74 @@ main {
   flex: 1 0 auto;
 }
 
-
-name {
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 150px;
-  line-height: 125px;
-  letter-spacing: -0.05em;
-}
-
-big {
-  font-size: 30px;
-  line-height: 40px;
-}
-
 background svg {
   position: absolute;
   top: 0;
 }
 
-
-
 footer {
   flex-shrink: 0;
 }
+
+/* TYPE STYLES!!!!!! */
+
+h1 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 120px;
+  line-height: 125px;
+  letter-spacing: -0.05em;
+  hyphens: auto;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.25em;
+
+}
+
+h2 {
+  font-family: Helvetica;
+  font-style: regular;
+  font-weight: 300;
+  font-size: 66px;
+  letter-spacing: -0.05em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h4 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  box-shadow: none;
+  padding: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 3px 12px 3px 12px;
+  box-shadow: inset 0px 0px 0px 1px white;
+  border-radius: 50px;
+  cursor: crosshair;
+}
+
+a:hover {
+  box-shadow: inset 0px 0px 0px 40px blue;
+  transition: ease-out 0.2s;
+  cursor: crosshair;
+}
+
+a:active {
+  color: blue;
+  box-shadow: inset 0px 0px 0px 1px blue;
+  transition: none;
+  cursor: crosshair;
+}
+

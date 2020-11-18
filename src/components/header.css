@@ -1,5 +1,4 @@
 .header {
-    position: fixed;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -7,38 +6,40 @@
     height: 100px;
     margin: 0px auto;
     max-width: 960px;  
+    width: 100vw;
+    position: absolute;
+    height: 100px;
+    top: 0;
 }
 
-siteTitle a {
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 22px;
+.sitetitle {
+  flex-grow: 1;
+}
+
+.sitetitle a {
     box-shadow: none;
     padding: 0px;
   }
 
-  siteTitle a:hover {
+.sitetitle a:hover {
       color: blue;
       box-shadow: none;
   }
 
-  siteTitle a:active {
+.sitetitle a:active {
     color: black;
-}
+  }
 
-
-  navLinks {
+navlinks {
+    flex-grow: 1;
     font-family: Helvetica;
     font-style: normal;
     font-size: 16px;
     line-height: 22px;
-    left: 0;
-
+    margin-right: 20px;
   }
 
-  navLinks a {
+  navlinks a {
     margin: 5px;
   }
 

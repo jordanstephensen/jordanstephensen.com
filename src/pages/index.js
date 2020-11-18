@@ -1,7 +1,6 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-import TextLink from "../components/textLink"
 import Layout from "../components/layout"
 import PageTitle from "../components/pageTitle"
 import SEO from "../components/seo"
@@ -9,14 +8,12 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <PageTitle />
-    <name>Jordan Stephensen <br /></name>
+    <PageTitle title=" "/>
+    <h1>Jordan Stephensen</h1>
     <br />
-    <br />
-    <br />
-    <big>Hello! I'm a graphic designer from Winnipeg, Canada, with a focus on branding, typography, interface design, and user experience.<br /><br />
-Currently doing product design at <TextLink >Bold Commerce</TextLink><br /><br />
-Taking on work on a limited basis. Work samples are available <TextLink >by request</TextLink></big><br />
+    <h3>Hello! I'm a designer from Winnipeg. I'm mainly focused on interface design, design systems, branding, and type design.<br /><br />
+Currently doing product design at <a >Bold Commerce</a><br /><br />
+Taking on work on a limited basis. <a >Contact me</a> for work samples or to discuss rates.</h3><br />
 
   </Layout>
 )

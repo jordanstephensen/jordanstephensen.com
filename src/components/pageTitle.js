@@ -7,6 +7,7 @@ import './pageTitle.css'
 const PageTitle = ({ title }) => (
 <div className="TitleGroup">
     <img 
+        class="logo"
         src={logo} 
         alt="logo"
     />

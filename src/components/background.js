@@ -3,7 +3,7 @@ import './background.css'
 
 
 const Background = () => (
-    <div classname="background">
+    <div class="background">
       <svg width="983" height="835" viewBox="0 0 983 835" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g filter="url(#filter0_d)">
       <path stroke="url(#paint0_linear)" stroke-width="10">
