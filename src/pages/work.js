@@ -20,7 +20,7 @@ const Work = () => (
       title="Personal Website"
       year="2020"
     >
-      Coming soon<br />
+      Coming soon<br /> 
     </Card>
     <Card 
       image={agoura}
