@@ -6,9 +6,8 @@ import PageTitle from "../components/pageTitle"
 import SEO from "../components/seo"
 
 const Contact = () => (
-  <Layout>
+  <Layout title="Get in touch">
     <SEO title="Contact" />
-    <PageTitle title="Get in touch"/>
     <h3><a href="mailto:js@jordanstephensen.com" target="_blank" rel="noreferrer">js@jordanstephensen.com</a><br />
       +1 204 688 4741
     </h3>

@@ -10,6 +10,8 @@
     position: absolute;
     height: 100px;
     bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
 }
 
 .copyright {

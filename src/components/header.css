@@ -5,12 +5,43 @@
     align-items: center;
     height: 100px;
     margin: 0px auto;
-    max-width: 960px;  
     width: 100vw;
-    position: absolute;
+    position: fixed;
     height: 100px;
     top: 0;
+    z-index: 100;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
+
+.HeaderScrolled {
+  background: rgba(0,0,0, 0.5);
+  backdrop-filter: blur(10px);
+  top: 0;
+}
+
+.headercontents {
+  max-width: 960px;
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: auto;
+}
+
+#peacelink {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  font-weight: 100;
+  box-shadow: none;
+}
+
+#peacelink:hover {
+  box-shadow: inset 0px 0px 0px 40px #1502FF;
+
+}
+
 
 .sitetitle {
   flex-grow: 1;

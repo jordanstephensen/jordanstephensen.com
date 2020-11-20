@@ -1,8 +1,8 @@
 import PropTypes from "prop-types"
 import React from "react"
 import logo from '../images/js-logo.svg'
-import './pageTitle.css'
 
+import './pageTitle.css'
 
 const PageTitle = ({ title }) => (
 <div className="TitleGroup">
