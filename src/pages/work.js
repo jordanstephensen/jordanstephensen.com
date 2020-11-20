@@ -13,24 +13,23 @@ import logo from '../images/js-logo.svg'
 const Work = () => (
   <Layout title="Work">
     <SEO title="Work" />
-
-    <Card 
-      image={agoura}
-      button="https://jordanstephensen.netlify.app/"
-      target="_blank"
-      title="Agoura"
-      year="2020"
-    >
-      children
-    </Card>
     <Card 
       image={logo}
-      button="https://jordanstephensen.netlify.app/"
-      target="_blank"
+      button=""
+      target="_self"
+      title="Personal Website"
+      year="2020"
+    >
+      Coming soon<br />
+    </Card>
+    <Card 
+      image={agoura}
+      button=""
+      target="_self"
       title="Agoura"
       year="2020"
     >
-      children
+      Coming soon<br />
     </Card>
 
   </Layout>
