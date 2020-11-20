@@ -5,7 +5,7 @@ import Card from "../components/card"
 import Layout from "../components/layout"
 import PageTitle from "../components/pageTitle"
 import SEO from "../components/seo"
-import agoura from '../images/agoura.svg'
+import agoura from '../images/Agoura.svg'
 // import background from '../images/background2.svg'
 import logo from '../images/js-logo.svg'
 
