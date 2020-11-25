@@ -14,8 +14,8 @@ const Work = () => (
     <SEO title="Work" />
     <Card 
       image={logo}
-      button="/work/personalsite"
-      target="_self"
+      button="https://github.com/jordanstephensen/jordanstephensen.com"
+      target="_blank"
       title="Personal site"
       year="2020"
     >
