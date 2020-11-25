@@ -22,10 +22,11 @@ const InnerPeace = () => (
                 <img class="ipaas" id="ipaas2" src={ipaas2} alt="inner peace" /><br />
                 <img class="ipaas" id="ipaas3" src={ipaas3} alt="inner peace" /><br /> */}
             {/* </div> */}
-        <h3 id="peacetext">
+        <div id="peacetext">
         <img class="ipaas" id="ipaas1" src={ipaas1} alt="Inner Peace as a Service" /><br />
-            Beta{/* <Link to="/">Return</Link> */}
-        </h3>
+            <h3 id="peacetext">Beta{/* <Link to="/">Return</Link> */}</h3>
+            <p class="secrets">This page is completely meaningless lol it was just for fun. But while you're here, stop looking at the code and enjoy some nice gradients.</p>
+        </div>
         <div id="innerglow"></div>
     </div>
     </peacecontainer>

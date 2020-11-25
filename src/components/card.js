@@ -10,8 +10,8 @@ const Card = ({ image, title, year, button, target, children }) => (
         </div>
         <div class="textcontainer">
           <h3>{title}</h3>
-          {children}<br />
-          <a href={button} target={target} rel="nofollow">See more</a>
+          <div class="pillcontainer">{children}</div>
+          <a href={button} target={target} rel="nofollow" >See more</a>
           <h3>{year}</h3>
         </div>
         <svg id="cardcorners" width="444" height="196" viewBox="0 0 444 196" fill="none" xmlns="http://www.w3.org/2000/svg">

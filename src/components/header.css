@@ -31,10 +31,14 @@
 
 #peacelink {
   position: absolute;
-  top: 22px;
-  left: 22px;
+  top: 25px;
+  left: 25px;
   font-weight: 100;
   box-shadow: none;
+
+  @media screen {
+    
+  }
 }
 
 #peacelink:hover {
@@ -71,8 +75,20 @@ navlinks {
   }
 
   navlinks a {
-    margin: 5px;
+    margin-right: 10px;
   }
 
 
+/* Media Queries */
 
+@media (max-width: 1111px) {
+  #peacelink {
+    top: 5px;
+    left: 5px;
+  }
+
+  .headercontents {
+    padding: 15px;
+    margin-top: 20px;
+  }
+}

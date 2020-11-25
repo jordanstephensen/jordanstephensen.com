@@ -17,15 +17,28 @@ html, body {
 
 @keyframes animatedGradient {
   0%{background:#f79533}
-  11%{background:#f37055 }
-  22%{background:#ef4e7b }
-  33%{background: #a166ab}
-  44%{background: #5073b8}
-  55%{background: #1098ad}
-  66%{background: #07b39b}
-  77%{background: #6fba82}
+  12%{background:#f37055 }
+  24%{background:#ef4e7b }
+  36%{background: #a166ab}
+  48%{background: #5073b8}
+  60%{background: #1098ad}
+  72%{background: #07b39b}
+  84%{background: #6fba82}
   100%{background: #f79533}
 }
+
+/* @keyframes animatedGradientBright {
+  0%{background:#ff962c}
+  12%{background:#ff5836 }
+  24%{background:#ff1c5d }
+  36%{background: #e657ff}
+  48%{background: #3176ff}
+  60%{background: #00dbbe}
+  72%{background: #00ff95}
+  84%{background: #cbff3a}
+  100%{background: #ff962c}
+} */
+
 
 #innerglow {
   position: absolute;
@@ -52,7 +65,7 @@ html, body {
   font-family: helvetica;
   font-weight: bold;
   letter-spacing: -0.05em;
-
+  z-index: 1;
 }
 
 /* #peacetext a {
@@ -165,6 +178,12 @@ main {
   flex: 1 0 auto;
 }
 
+.workimage {
+  width: 95vw;
+  max-width: 960px;
+  margin: auto;
+}
+
 background svg {
   position: absolute;
   top: 0;
@@ -172,6 +191,10 @@ background svg {
 
 footer {
   flex-shrink: 0;
+}
+
+.secrets {
+  visibility: hidden;
 }
 
 /* TYPE STYLES!!!!!! */
@@ -218,6 +241,12 @@ h4 {
   margin-block-end: 0.5em;
 }
 
+h6 {
+  font-family: Helvetica;
+  font-weight: 500;
+  font-size: 12px;
+}
+
 a {
   color: #F3FAF9;
   text-decoration: none;
@@ -241,4 +270,14 @@ a:active {
 ::selection {
   color: #000;
   background-color: #1502FF;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 450px) {
+  #name {
+      display: none; 
+  }
 }

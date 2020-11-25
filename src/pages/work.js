@@ -1,12 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Card from "../components/card"
 import Layout from "../components/layout"
-import PageTitle from "../components/pageTitle"
+import Pill from "../components/pill"
 import SEO from "../components/seo"
-import agoura from '../images/Agoura.svg'
-// import background from '../images/background2.svg'
+import eternalthumb from '../images/eternal/eternal-thumbnail.svg'
+import agourathumb from '../images/agoura/agoura-thumbnail.svg'
 import logo from '../images/js-logo.svg'
 
 
@@ -15,21 +14,30 @@ const Work = () => (
     <SEO title="Work" />
     <Card 
       image={logo}
-      button=""
+      button="/work/personalsite"
       target="_self"
-      title="Personal Website"
+      title="Personal site"
       year="2020"
     >
-      Coming soon<br /> 
+      <Pill label="Web design" /><Pill label="React" /><Pill label="JSX" /><Pill label="CSS" /><br /><Pill label="Very meta" /><Pill label="Open-source" />
     </Card>
     <Card 
-      image={agoura}
-      button=""
+      image={eternalthumb}
+      button="/work/eternal"
+      target="_self"
+      title="Eternal"
+      year="2020"
+    >
+      <Pill label="Typeface" /><Pill label="Display" /><Pill label="Open-source" /><br />
+    </Card>
+    <Card 
+      image={agourathumb}
+      button="/work/agoura"
       target="_self"
       title="Agoura"
       year="2020"
     >
-      Coming soon<br />
+      <Pill label="Typeface" /><Pill label="Display" /><Pill label="Serif" /><br />
     </Card>
 
   </Layout>
