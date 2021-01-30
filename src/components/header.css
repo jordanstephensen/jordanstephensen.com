@@ -31,19 +31,15 @@
 
 #peacelink {
   position: absolute;
-  top: 25px;
-  left: 25px;
+  top: 24px;
+  left: 24px;
   font-weight: 100;
   box-shadow: none;
-
-  @media screen {
-    
-  }
+  padding: 0px 13px;
 }
 
 #peacelink:hover {
-  box-shadow: inset 0px 0px 0px 40px #1502FF;
-
+  box-shadow: inset 0px 0px 0px 30px #1502FF;
 }
 
 
@@ -83,6 +79,7 @@ navlinks {
 
 @media (max-width: 1111px) {
   #peacelink {
+    display: none;
     top: 5px;
     left: 5px;
   }

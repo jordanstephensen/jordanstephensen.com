@@ -1,9 +1,9 @@
 import { Link } from "gatsby"
 import React from "react"
-import twitter from '../images/twitter.svg'
-import instagram from '../images/instagram.svg'
-import github from '../images/github.svg'
-import arena from '../images/arena.svg'
+import twitter from '../images/social/twitter.svg'
+import instagram from '../images/social/instagram.svg'
+import github from '../images/social/github.svg'
+import arena from '../images/social/arena.svg'
 
 import './footer.css'
 

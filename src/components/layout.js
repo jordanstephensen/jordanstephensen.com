@@ -13,7 +13,7 @@ const Layout = ({ title, children }) => {
     <>
         <Header />
         <contents>
-        <div id="background2">
+        <div id="animatedbackground">
             <svg class="animation" width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d)">
             <path stroke-width="10">
@@ -65,7 +65,7 @@ const Layout = ({ title, children }) => {
             <main> 
               {children}
             </main>
-              {/* <Footer /> */}
+              <Footer />
           </div>
           </contents>
     </>

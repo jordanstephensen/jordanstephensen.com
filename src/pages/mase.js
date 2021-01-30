@@ -8,7 +8,7 @@ import mase from '../images/mase.jpg'
 const Mase = () => (
   <Layout title="Mase 🖤">
     <SEO title="Mase 🖤" />
-        <img class="workimage" src={mase} alt="my beautiful dog Mase. She's a Doberman Shepherd. Very very nice dog." />
+        <img class="bodyimage" src={mase} alt="my beautiful dog Mase. She's a Doberman Shepherd. Very very nice dog." />
   </Layout>
 )
 

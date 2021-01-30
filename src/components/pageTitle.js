@@ -9,7 +9,7 @@ const PageTitle = ({ title }) => (
     <img 
         class="logo"
         src={logo} 
-        alt="logo"
+        alt="Jordan Stephensen logo"
     />
     <h2>{title}</h2>
 </div>
