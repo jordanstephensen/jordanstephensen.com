@@ -65,9 +65,9 @@ const Layout = ({ title, children }) => {
             <main> 
               {children}
             </main>
-              <Footer />
           </div>
           </contents>
+          <Footer />
     </>
   )
 }

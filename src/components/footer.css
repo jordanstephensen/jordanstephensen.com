@@ -1,21 +1,32 @@
 .footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    margin: 0px auto;
-    max-width: 960px;  
-    width: 100vw;
-    position: absolute;
-    height: 100px;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(20px);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 0px auto;
+  width: 100vw;
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  z-index: 100;
+  background: rgba(0,0,0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.footercontents {
+  max-width: 960px;
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: auto;
 }
 
 .copyright {
     flex-grow: 1;
+    color: white;
   }
 
 footerlinks a {

@@ -9,6 +9,7 @@ import './footer.css'
 
 const Footer = ({ children }) => (
   <div class="footer">
+    <div class="footercontents">
       <h4 class="copyright">
         © {new Date().getFullYear()}
       </h4>
@@ -44,6 +45,7 @@ const Footer = ({ children }) => (
           </a>
         </footerlinks>
       </div>
+    </div>
 )
 
 export default Footer
