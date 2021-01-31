@@ -78,14 +78,14 @@ navlinks {
 /* Media Queries */
 
 @media (max-width: 1111px) {
-  #peacelink {
+  /* #peacelink {
     display: none;
     top: 5px;
     left: 5px;
-  }
+  } */
 
   .headercontents {
-    padding: 15px;
-    margin-top: 20px;
+    padding: 1rem;
+    margin-top: 0.375rem;
   }
 }

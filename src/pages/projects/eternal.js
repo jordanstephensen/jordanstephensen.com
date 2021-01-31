@@ -7,9 +7,8 @@ import cover from "../../images/eternal/eternal-cover.png"
 const Eternal = () => (
   <Layout title="Eternal">
     <SEO title="Eternal Display Font" />
-    <img class="bodyimage" src={cover} />
-    <h3>Coming soon
-    </h3>
+    <img class="bodyimage" src={cover} alt="Eternal display font"/>
+    <h3>Coming soon</h3>
 
   </Layout>
 )

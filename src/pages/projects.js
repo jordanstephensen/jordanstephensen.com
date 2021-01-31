@@ -10,8 +10,8 @@ import logo from '../images/js-logo.svg'
 
 
 const Work = () => (
-  <Layout title="Work">
-    <SEO title="Work" />
+  <Layout title="Projects">
+    <SEO title="Projects" />
     <Card 
       image={logo}
       button="https://github.com/jordanstephensen/jordanstephensen.com"
@@ -19,11 +19,11 @@ const Work = () => (
       title="Personal site"
       year="2020"
     >
-      <Pill label="Web design" /><Pill label="React" /><Pill label="JSX" /><Pill label="CSS" /><br /><Pill label="Very meta" /><Pill label="Open-source" />
+      <Pill label="Web design" /><Pill label="React" /><Pill label="JSX" /><Pill label="CSS" /><br /><Pill label="Meta" /><Pill label="Open-source" />
     </Card>
     <Card 
       image={eternalthumb}
-      button="/work/eternal"
+      button="/projects/eternal"
       target="_self"
       title="Eternal"
       year="2020"
@@ -32,7 +32,7 @@ const Work = () => (
     </Card>
     <Card 
       image={agourathumb}
-      button="/work/agoura"
+      button="/projects/agoura"
       target="_self"
       title="Agoura"
       year="2020"

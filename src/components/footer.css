@@ -35,3 +35,10 @@ footerlinks a {
     padding-top: 13px;
   }
 
+/* Media Queries */
+
+@media (max-width: 1111px) {
+  .footercontents {
+    padding: 1rem;
+  }
+}
