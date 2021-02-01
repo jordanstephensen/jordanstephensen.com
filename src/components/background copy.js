@@ -18,14 +18,18 @@ const Background = () => (
       /> </path>
       </g>
       <defs>
-      <filter id="filter0_f" x="0.503906" y="0.657227" width="1012.47" height="863.406" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-        <feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur"/>
+      <filter id="filter0_d" x="0.51123" y="0.658203" width="982.46" height="833.406" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="15"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.146745 0 0 0 0 0.00784314 0 0 0 0 1 0 0 0 0.5 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
       </filter>
-      <linearGradient id="paint0_linear" x1="506.746" y1="50.6582" x2="506.746" y2="814.063" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#1502FF"/>
-        <stop offset="1" stop-color="#7000FF"/>
+      <linearGradient id="paint0_linear" x1="491.745" y1="31.6582" x2="491.745" y2="795.063" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1502FF"/>
+      <stop offset="1" stop-color="#7000FF"/>
       </linearGradient>
       </defs>
     </svg>
@@ -33,4 +37,3 @@ const Background = () => (
 )
 
 export default Background
-

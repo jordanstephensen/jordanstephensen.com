@@ -30,6 +30,7 @@ html, body {
   position: absolute; 
   margin: auto;
   z-index: -2;
+  /* filter: blur(10px); */
 }
 
 body {
@@ -63,6 +64,7 @@ main {
   width: 95vw;
   max-width: 960px;
   margin: auto;
+  margin-bottom: 4rem;
 }
 
 background svg {
@@ -78,6 +80,9 @@ footer {
   visibility: hidden;
 }
 
+.spacer {
+  height: 300px;
+}
 /* TYPE STYLES!!!!!! */
 
 h1 {

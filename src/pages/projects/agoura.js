@@ -4,10 +4,8 @@ import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
 const Agoura = () => (
-  <Layout title="Agoura">
+  <Layout title="Coming Soon">
     <SEO title="Agoura Display Font" />
-    <h3>Coming soon
-    </h3>
   </Layout>
 )
 
