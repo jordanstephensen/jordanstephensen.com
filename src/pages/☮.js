@@ -15,7 +15,7 @@ import SEO from "../components/seo"
 
 const InnerPeace = () => (
     <peacecontainer><SEO title="Inner Peace" />
-        <h3><Link id="peacelink" to="/">←</Link></h3>
+    <Link id="peacelink" to="/">‹</Link>
     <div id="innerpeace">
             {/* <div id="ipasscontainer">    */}
                 {/* <img class="ipaas" id="ipaas1" src={ipaas1} alt="inner peace" /><br />
@@ -23,9 +23,9 @@ const InnerPeace = () => (
                 <img class="ipaas" id="ipaas3" src={ipaas3} alt="inner peace" /><br /> */}
             {/* </div> */}
         <div id="peacetext">
-        <img class="ipaas" id="ipaas1" src={ipaas1} alt="Inner Peace as a Service" /><br />
-            <h3 id="peacetext">Beta{/* <Link to="/">Return</Link> */}</h3>
-            <p class="secrets">This page is meaningless, just enjoy the gradients</p>
+        {/* <img class="ipaas" id="ipaas1" src={ipaas1} alt="Inner Peace as a Service" /><br />
+            <h3 id="peacetext">Beta</h3> */}
+            <p class="secrets">A little break room, just enjoy the gradients</p>
         </div>
         <div id="innerglow"></div>
     </div>

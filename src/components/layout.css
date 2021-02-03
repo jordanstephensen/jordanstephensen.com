@@ -5,6 +5,40 @@ html, body {
   height: 100%;
 }
 
+#innerpeace {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  animation: animatedGradient 20s infinite;
+  width: 100vw;
+  height: 100vh;
+}
+
+#innerglow {
+  position: absolute;
+  border-radius: 10vw;
+  -webkit-filter: blur(100px);
+  -moz-filter: blur(100px);
+  -o-filter: blur(100px);
+  -ms-filter: blur(100px);
+  filter: blur(100px);
+  width: 70vw;
+  height: 70vh;
+  animation: animatedGradient 10s infinite;
+}
+
+@keyframes animatedGradient {
+  0%{background:#f79533}
+  12%{background:#f37055 }
+  24%{background:#ef4e7b }
+  36%{background: #a166ab}
+  48%{background: #5073b8}
+  60%{background: #1098ad}
+  72%{background: #07b39b}
+  84%{background: #6fba82}
+  100%{background: #f79533}
+}
+
 .animation {
   animation: colorChange 20s infinite;
   width:100%;
@@ -64,7 +98,8 @@ main {
   width: 95vw;
   max-width: 960px;
   margin: auto;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 background svg {
@@ -83,6 +118,7 @@ footer {
 .spacer {
   height: 300px;
 }
+
 /* TYPE STYLES!!!!!! */
 
 h1 {

@@ -33,7 +33,6 @@
   position: absolute;
   top: 24px;
   left: 24px;
-  font-weight: 100;
   box-shadow: none;
   padding: 0px 13px;
 }
@@ -78,11 +77,11 @@ navlinks {
 /* Media Queries */
 
 @media (max-width: 1111px) {
-  /* #peacelink {
+  #peacelink {
     display: none;
     top: 5px;
     left: 5px;
-  } */
+  }
 
   .headercontents {
     padding: 1rem;

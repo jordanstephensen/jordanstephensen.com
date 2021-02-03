@@ -31,14 +31,14 @@ class Header extends React.Component {
     return (
     <div className={this.state.hasScrolled ? 'header HeaderScrolled' : 'header'}>
     {/* <div class="header"> */}
-      {/* <h3>
+      <h3>
         <Link id="peacelink" to="/☮">
           <img 
             src={peace} 
             alt="peace"
           />
         </Link>
-      </h3> */}
+      </h3>
       <div class="headercontents">
         <h4 class="sitetitle">
             <Link to="/">
