@@ -1,15 +1,11 @@
 
 card {
-    width: 450px;
+    width: 460px;
     height: 200px;
-    position: relative;
-    border-radius: 0px;
-    display: flex;
-    flex-flow: row nowrap;
     background: rgba(255, 255, 255, 0.0);
     backdrop-filter: blur(5px);
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-    margin-bottom: 50px;
+    margin: 10px;
     /* background-image: url(../images/cardcorners.svg);
     background-size: cover;
     background-repeat: no-repeat; */
@@ -22,11 +18,9 @@ card:hover {
     background: rgba(255, 255, 255, 0.01);
 }
 
-#cardcorners {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+.cardcontents {
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 .imagecontainer {
@@ -66,4 +60,32 @@ Card p {
 
 .pillcontainer {
     margin-bottom: 12px;   
+}
+
+.cardcorners {
+    z-index: -1;
+}
+
+#cardcorners-tl {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#cardcorners-tr {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#cardcorners-br {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#cardcorners-bl {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }

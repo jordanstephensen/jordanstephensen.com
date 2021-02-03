@@ -27,6 +27,10 @@ html, body {
   animation: animatedGradient 10s infinite;
 }
 
+#peacetext {
+  z-index: 1;
+}
+
 @keyframes animatedGradient {
   0%{background:#f79533}
   12%{background:#f37055 }

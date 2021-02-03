@@ -22,9 +22,9 @@ const Work = () => (
       <Pill label="Web design" /><Pill label="React" /><Pill label="JSX" /><Pill label="CSS" /><br /><Pill label="Meta" /><Pill label="Open-source" />
     </Card>
 
-    <h3>More coming soon</h3>
+    {/* <h3>More coming soon</h3> */}
 
-    {/* <Card 
+    <Card 
       image={eternalthumb}
       button="/projects/eternal"
       target="_self"
@@ -42,7 +42,7 @@ const Work = () => (
       year="2020"
     >
       <Pill label="Typeface" /><Pill label="Display" /><Pill label="Serif" /><br />
-    </Card> */}
+    </Card>
 
   </Layout>
 )

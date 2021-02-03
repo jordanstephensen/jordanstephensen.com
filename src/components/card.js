@@ -5,21 +5,31 @@ import './card.css'
 
 const Card = ({ image, title, year, button, target, children }) => (
       <card>
-        <div class="imagecontainer">
-            <img id="cardimage" src={image} alt={title}/>
+        <div class="cardcontents">
+          <div class="imagecontainer">
+              <img id="cardimage" src={image} alt={title}/>
+          </div>
+          <div class="textcontainer">
+            <h3>{title}</h3>
+            <div class="pillcontainer">{children}</div>
+            <a href={button} target={target} rel="nofollow" >See more</a>
+            <h3>{year}</h3>
+          </div>
         </div>
-        <div class="textcontainer">
-          <h3>{title}</h3>
-          <div class="pillcontainer">{children}</div>
-          <a href={button} target={target} rel="nofollow" >See more</a>
-          <h3>{year}</h3>
+        <div class="cardcorners">
+          <svg id="cardcorners-tl" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 1H1V19" stroke="white"/>
+          </svg>
+          <svg id="cardcorners-tr" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 1H18V19" stroke="white"/>
+          </svg>
+          <svg id="cardcorners-br" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 18H18V0" stroke="white"/>
+          </svg>
+          <svg id="cardcorners-bl" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 18H1V0" stroke="white"/>
+          </svg>
         </div>
-        <svg id="cardcorners" width="444" height="196" viewBox="0 0 444 196" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M19 1H1V19" stroke="#F3FAF9"/>
-          <path d="M425 1H443V19" stroke="#F3FAF9"/>
-          <path d="M19 195H1V177" stroke="#F3FAF9"/>
-          <path d="M425 195H443V177" stroke="#F3FAF9"/>
-        </svg>
     </card>
 )
 
