@@ -45,11 +45,13 @@ class Header extends React.Component {
               JORDAN STEPHENSEN
             </Link>
           </h4>
+        <div className="navinks">
           <navlinks>
             <Link to="/about">ABOUT</Link>
             <Link to="/projects">PROJECTS</Link>
             <Link to="/contact">CONTACT</Link>
           </navlinks>
+        </div>
       </div>
     </div>
     )
