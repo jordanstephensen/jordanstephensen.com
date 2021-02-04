@@ -1,3 +1,15 @@
-.spacer {
-    height: 200px;
+.spacer-small {
+    min-height: 40px;
+}
+
+.spacer-medium {
+    min-height: 80px;
+}
+
+.spacer-large {
+    min-height: 120px;
+}
+
+.spacer-xlarge {
+    min-height: 200px;
 }

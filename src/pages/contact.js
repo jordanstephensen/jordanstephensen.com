@@ -7,9 +7,9 @@ import SEO from "../components/seo"
 const Contact = () => (
   <Layout title="Get in touch">
     <SEO title="Contact" />
-    <h3><a href="mailto:js@jordanstephensen.com" target="_blank" rel="noreferrer">js@jordanstephensen.com</a><br />
+    <big><a href="mailto:js@jordanstephensen.com" target="_blank" rel="noreferrer">js@jordanstephensen.com</a><br/><br/>
       +1 204 688 4741
-    </h3>
+    </big>
   </Layout>
 )
 

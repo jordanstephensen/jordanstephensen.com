@@ -1,12 +1,13 @@
 .TitleGroup {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     padding: 150px 0 50px 0;
-    height: 85px;
+    min-height: 85px;
 }
 
 .logo {
-    padding-right: 30px;;
+    padding-right: 30px;
+    padding-top: 6px
 }
 

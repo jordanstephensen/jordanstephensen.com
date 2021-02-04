@@ -5,7 +5,7 @@ html, body {
   height: 100%;
 }
 
-#innerpeace {
+#outerglow {
   display: flex;
   justify-content: center;
   align-items: center;  
@@ -25,10 +25,6 @@ html, body {
   width: 70vw;
   height: 70vh;
   animation: animatedGradient 10s infinite;
-}
-
-#peacetext {
-  z-index: 1;
 }
 
 @keyframes animatedGradient {
@@ -104,6 +100,7 @@ main {
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  object-fit: contain;
 }
 
 background svg {
@@ -143,6 +140,7 @@ h2 {
   font-family: Helvetica;
   font-weight: 300;
   font-size: 4rem;
+  line-height: 4rem;
   letter-spacing: -0.05rem;
   margin-block-start: 0;
   margin-block-end: 0;
