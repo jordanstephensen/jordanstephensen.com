@@ -34,7 +34,7 @@ card:hover {
     left: 12px;
     background: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(20px);
-    border:0.5px solid white;
+    border: 0.5px solid white;
 }
 
 #cardimage {
@@ -89,4 +89,27 @@ Card p {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+    .cardcorners {
+        display: none;
+    }
+
+    card {
+        border: 0.25px solid white;
+    }
+
+    .imagecontainer {
+        width: 100px;
+        height: 100px;
+    }
+
+    #cardimage {
+        max-width: 75px;
+        max-height: 75px;
+    }    
 }
