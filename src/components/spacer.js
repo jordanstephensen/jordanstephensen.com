@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import './spacer.css'
+import './spacer.scss'
 
 const Spacer = ({ size }) => (
     <div class="spacer-{size}"></div> 

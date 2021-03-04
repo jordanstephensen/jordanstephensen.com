@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import './card.css'
+import './card.scss'
 
 const Card = ({ image, title, year, button, target, children }) => (
       <card>

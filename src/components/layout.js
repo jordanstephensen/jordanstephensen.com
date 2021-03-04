@@ -6,7 +6,7 @@ import Header from "./header"
 import PageTitle from "./pageTitle"
 import Footer from "./footer"
 
-import "./layout.css"
+import "./layout.scss"
 
 const Layout = ({ title, children }) => {
   return (
@@ -17,7 +17,7 @@ const Layout = ({ title, children }) => {
             <svg class="animation" width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d)">
             <path stroke-width="10">
-              <animate className="animation" repeatCount="indefinite" fill="remove" attributeName="d" dur="10s" values="M784.5 192C713.5 91.5005 633.501 25.0002 415.001 32.5002C196.501 40.0002 126.5 91.5004 67.0009 192.001C7.50173 292.501 28.0004 454 165.5 565.5C303 677 741.5 762.5 835 604.5C928.5 446.5 855.5 292.5 784.5 192Z;
+              <animate className="animation" repeatCount="indefinite" fill="remove" attributeName="d" dur="20s" values="M784.5 192C713.5 91.5005 633.501 25.0002 415.001 32.5002C196.501 40.0002 126.5 91.5004 67.0009 192.001C7.50173 292.501 28.0004 454 165.5 565.5C303 677 741.5 762.5 835 604.5C928.5 446.5 855.5 292.5 784.5 192Z;
 
               M842.5 266.499C783.5 151.499 651.5 40.9999 433 48.4999C214.5 55.9999 148.999 137.5 89.4999 238C30.0007 338.5 34.5007 456.5 172.001 568C309.501 679.5 732 831.999 842.5 712.499C953 592.999 901.5 381.499 842.5 266.499Z;
 

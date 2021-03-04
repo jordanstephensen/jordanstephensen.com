@@ -5,7 +5,7 @@ import instagram from '../images/social/instagram.svg'
 import github from '../images/social/github.svg'
 import arena from '../images/social/arena.svg'
 
-import './footer.css'
+import './footer.scss'
 
 const Footer = ({ children }) => (
   <div class="footer">

@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import peace from '../images/peace.svg'
 
-import './header.css'
+import './header.scss'
 
 class Header extends React.Component {
     constructor(props) {

@@ -201,8 +201,12 @@ a:active {
 
 /* Media Queries */
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   #name {
       display: none; 
+  }
+
+  #animatedbackground {
+    display: none; 
   }
 }

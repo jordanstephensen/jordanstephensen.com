@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 
-import './pill.css'
+import './pill.scss'
 
 const Pill = ({ label }) => (
         <h6 class="pill">{label}</h6> 
