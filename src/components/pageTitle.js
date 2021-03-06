@@ -5,9 +5,9 @@ import logo from '../images/js-logo.svg'
 import './pageTitle.scss'
 
 const PageTitle = ({ title }) => (
-<div className="TitleGroup">
+<div className="page-title">
     <img 
-        class="logo"
+        class="page-title__logo"
         src={logo} 
         alt="Jordan Stephensen logo"
     />

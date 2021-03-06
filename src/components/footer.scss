@@ -12,28 +12,28 @@
   z-index: 100;
   background: rgba(0,0,0, 0.5);
   backdrop-filter: blur(10px);
-}
 
-.footercontents {
-  max-width: 960px;
-  width: 100vw;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: baseline;
-  margin: auto;
-}
+  &__contents {
+    max-width: 960px;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: auto;
+  }
 
-.copyright {
+&__copyright {
     flex-grow: 1;
     color: white;
   }
 
-footerlinks a {
+&__links a {
     box-shadow: none;
     flex-grow: 1;
     padding-top: 13px;
   }
+}
 
 /* Media Queries */
 

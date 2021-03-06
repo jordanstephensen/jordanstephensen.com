@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import Background from "../components/background"
 import SEO from "../components/seo"
 
 const About = () => (
@@ -14,6 +15,7 @@ const About = () => (
       From 2019 to the present, I have been working at <a href="https://www.boldcommerce.com" target="_blank" rel="noreferrer">Bold Commerce</a> as a product designer, focusing on UI design and design systems work.<br /><br />
       Outside of work, I dabble in type design and illustration. Try to ride my bike pretty often and play tennis once in a while. Also love my dog <Link to="/mase">Mase</Link> very much.
     </big>  
+    <Background />
   </Layout>
 )
 

@@ -8,44 +8,39 @@ import arena from '../images/social/arena.svg'
 import './footer.scss'
 
 const Footer = ({ children }) => (
-  <div class="footer">
-    <div class="footercontents">
-      <h4 class="copyright">
+  <div className="footer">
+    <div className="footer__contents">
+      <h4 className="footer__copyright">
         © {new Date().getFullYear()}
       </h4>
-      <div class="footerlinks"></div>
-        <footerlinks>
-          <a href="https://www.twitter.com/jwstephensen" target="_blank" rel="noreferrer">
-            <img 
-              class="twitter"
-              src={twitter} 
-              alt="twitter logo"
-            />
-          </a>
-          <a href="https://www.instagram.com/jordanstephensen" target="_blank" rel="noreferrer">
-            <img 
-              class="instagram"
-              src={instagram} 
-              alt="instagram logo"
-            />
-          </a>
-          <a href="https://www.github.com/jordanstephensen" target="_blank" rel="noreferrer">
-            <img 
-              class="github"
-              src={github} 
-              alt="github logo"
-            />
-          </a>
-          <a href="https://www.are.na/jordan-stephensen" target="_blank" rel="noreferrer">
-            <img 
-              class="arena"
-              src={arena} 
-              alt="arena logo"
-            />
-          </a>
-        </footerlinks>
+      <div className="footer__links">
+        <a href="https://www.twitter.com/jwstephensen" target="_blank" rel="noreferrer">
+          <img 
+            src={twitter} 
+            alt="twitter logo"
+          />
+        </a>
+        <a href="https://www.instagram.com/jordanstephensen" target="_blank" rel="noreferrer">
+          <img 
+            src={instagram} 
+            alt="instagram logo"
+          />
+        </a>
+        <a href="https://www.github.com/jordanstephensen" target="_blank" rel="noreferrer">
+          <img 
+            src={github} 
+            alt="github logo"
+          />
+        </a>
+        <a href="https://www.are.na/jordan-stephensen" target="_blank" rel="noreferrer">
+          <img 
+            src={arena} 
+            alt="are.na logo"
+          />
+        </a>
       </div>
     </div>
+  </div>
 )
 
 export default Footer
