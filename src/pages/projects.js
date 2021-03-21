@@ -22,7 +22,7 @@ const Work = () => (
       title="Personal site"
       year="2020"
     >
-      <Pill label="Web design" /><Pill label="React" /><Pill label="JSX" /><Pill label="CSS" /><br /><Pill label="Meta" /><Pill label="Open-source" />
+      <Pill label="Web design" /><Pill label="React" /><Pill label="JSX" /><Pill label="SCSS" /><br /><Pill label="Meta" /><Pill label="Open-source" />
     </Card>
 
     <Card 

@@ -102,21 +102,24 @@
 /* Media Queries */
 
 @media (max-width: 500px) {
-    .cardcorners {
-        display: none;
-    }
 
-    card {
+    .card {
         border: 0.25px solid white;
-    }
+    
+        &__corners {
+            display: none;
+        }
 
-    .imagecontainer {
-        width: 100px;
-        height: 100px;
-    }
+        &__contents {
+            &__image-container {
+                width: 100px;
+                height: 100px;
 
-    #cardimage {
-        max-width: 75px;
-        max-height: 75px;
-    }    
+                &--img {
+                    max-width: 75px;
+                    max-height: 75px;            
+                }
+            }
+        }
+    }
 }

@@ -36,7 +36,7 @@ const Background = () => (
           <stop offset="1" stop-color="#4402FF"/>
         </linearGradient>
       </defs>
-    </svg>å
+    </svg>
   </div>
 )
 

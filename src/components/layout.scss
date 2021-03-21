@@ -66,6 +66,15 @@ body {
     justify-content: space-between;
     flex: 1 0 auto;
   }
+
+  &__text-container {
+    display: flex;
+    flex-flow: row nowrap;
+
+    &--2col {
+      flex: 50%;
+    }
+  }
 }
 
 .bodyimage {
@@ -144,6 +153,10 @@ h6 {
   font-family: Helvetica;
   font-weight: 500;
   font-size: 12px;
+}
+
+p {
+  font-family: Helvetica;
 }
 
 a {

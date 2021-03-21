@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 
 import Header from "./header"
 import PageTitle from "./pageTitle"
+import Spacer from "./spacer"
 import Footer from "./footer"
 
 import "./layout.scss"
@@ -17,7 +18,8 @@ const Layout = ({ title, children }) => {
             <div className="contents__main"> 
               {children}
             </div>
-          <div class="spacer" />
+            <Spacer size="xlarge" />
+            <Spacer size="xlarge" />
           </div>
           <Footer />
     </>

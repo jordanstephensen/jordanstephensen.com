@@ -13,17 +13,27 @@ import text from "../../images/keys/keys-text.svg"
 const Keys = () => (
   <Layout title="Keys Stencil">
     <SEO title="Keys Stencil Display Font" />
-    <h3><br/>Open-source<br/>
-      SIL Open Font License 1.1<br/><br/>
-      <a href=""> Source Files</a><br/><br/>
-    </h3>
-    {/* <img class="bodyimage" src={cover} alt="Eternal display font"/> */}
-    <img class="bodyimage" src={alphabet} alt="Keys stencil font alphabet"/>
-    <img class="bodyimage" src={numbers} alt="Keys stencil font numbers"/>
-    <img class="bodyimage" src={symbols} alt="Keys stencil font symbols"/>
-    <img class="bodyimage" src={diacritics1} alt="Keys stencil font diacritics"/>
-    <img class="bodyimage" src={diacritics2} alt="Keys stencil font diacritics"/>
-    <img class="bodyimage" src={text} alt="Keys stencil font text samples"/>
+    <div className="contents__text-container">
+      <div className="contents__text-container--2col">
+        <h3>Open-source<br/>
+          SIL Open Font License 1.1<br/><br/>
+          <a href="https://github.com/jordanstephensen/keys-stencil" target="_blank"> Source Files</a><br/><br/>
+        </h3>
+      </div>
+      <div className="contents__text-container--2col">
+        <p>
+          A blocky, geometric stencil display font. Looks best at large scale.
+          357 Characters
+          Includes Letters, Numbers, Punctuation, Separators, Symbols, Marks and Latic Diacritics.
+        </p>
+      </div>
+    </div>
+    <img className="bodyimage" src={alphabet} alt="Keys stencil font alphabet"/>
+    <img className="bodyimage" src={numbers} alt="Keys stencil font numbers"/>
+    <img className="bodyimage" src={symbols} alt="Keys stencil font symbols"/>
+    <img className="bodyimage" src={diacritics1} alt="Keys stencil font diacritics"/>
+    <img className="bodyimage" src={diacritics2} alt="Keys stencil font diacritics"/>
+    <img className="bodyimage" src={text} alt="Keys stencil font text samples"/>
 
   </Layout>
 )
