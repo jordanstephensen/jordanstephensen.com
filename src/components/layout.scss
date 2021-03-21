@@ -177,11 +177,21 @@ a:active {
 /* Media Queries */
 
 @media (max-width: 500px) {
-  #name {
-      display: none; 
+
+}
+
+@media (max-width: 666px) {
+  .contents {
+    &__text-container {
+      flex-flow: column nowrap;
+    }
   }
 
-  #animatedbackground {
+  #name {
+    display: none; 
+  }
+
+  .background {
     display: none; 
   }
 }
