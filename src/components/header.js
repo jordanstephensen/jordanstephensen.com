@@ -39,17 +39,17 @@ class Header extends React.Component {
           />
         </Link>
       </h3>
-      <div class="headercontents">
-        <h4 class="sitetitle">
+      <div className="header__contents">
+        <h4 className="header__contents--site-title">
             <Link to="/">
               JORDAN STEPHENSEN
             </Link>
           </h4>
-          <navlinks>
+          <div className="header__contents--nav-links">
             <Link to="/about">ABOUT</Link>
             <Link to="/projects">PROJECTS</Link>
             <Link to="/contact">CONTACT</Link>
-          </navlinks>
+          </div>
       </div>
     </div>
     )

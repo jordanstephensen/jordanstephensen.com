@@ -7,6 +7,11 @@ html, body {
   height: 100%;
 }
 
+body {
+  background: black;
+  margin: 0px;
+}
+
 #outerglow {
   display: flex;
   justify-content: center;
@@ -39,11 +44,6 @@ html, body {
   72%{background: #07b39b}
   84%{background: #6fba82}
   100%{background: #f79533}
-}
-
-body {
-  background: black;
-  margin: 0px;
 }
 
 .contents {
@@ -86,22 +86,10 @@ body {
   object-fit: contain;
 }
 
-background svg {
-  position: absolute;
-  top: 0;
-}
-
-footer {
-  flex-shrink: 0;
-}
-
 .secrets {
   visibility: hidden;
 }
 
-.spacer {
-  height: 300px;
-}
 
 /* TYPE */
 
