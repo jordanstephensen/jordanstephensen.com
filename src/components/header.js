@@ -30,7 +30,6 @@ class Header extends React.Component {
   render() {
     return (
     <div className={this.state.hasScrolled ? 'header HeaderScrolled' : 'header'}>
-    {/* <div class="header"> */}
       <h3>
         <Link id="peacelink" to="/☮">
           <img 
@@ -48,7 +47,7 @@ class Header extends React.Component {
           <div className="header__contents--nav-links">
             <Link to="/about">ABOUT</Link>
             <Link to="/projects">PROJECTS</Link>
-            <Link to="/contact">CONTACT</Link>
+            <a href="mailto:jordanstephensen@gmail.com" target="_blank" rel="noreferrer">CONTACT</a>
           </div>
       </div>
     </div>
