@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import peace from '../images/peace.svg'
+import peace from '../../images/peace.svg'
 
 import './header.scss'
 

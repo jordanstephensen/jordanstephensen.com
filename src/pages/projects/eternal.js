@@ -1,6 +1,6 @@
 import React from "react"
 
-import Layout from "../../components/layout"
+import Layout from "../../components/layout/layout"
 import SEO from "../../components/seo"
 import cover from "../../images/eternal/eternal-cover-2.png"
 import alphabet from "../../images/eternal/eternal-alphabet.svg"

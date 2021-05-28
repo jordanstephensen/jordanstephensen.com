@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Background from "../components/background"
+import Layout from "../components/layout/layout"
+import Background from "../components/background/background"
 import SEO from "../components/seo"
 
 const About = () => (

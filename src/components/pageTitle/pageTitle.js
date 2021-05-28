@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
-import logo from '../images/js-logo.svg'
+import logo from '../../images/js-logo.svg'
 
 import './pageTitle.scss'
 

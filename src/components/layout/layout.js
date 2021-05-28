@@ -2,14 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
-import Header from "./header"
-import PageTitle from "./pageTitle"
-import Spacer from "./spacer"
-import Footer from "./footer"
+import Header from "../header/header"
+import PageTitle from "../pageTitle/pageTitle"
+import Spacer from "../spacer/spacer"
+import Footer from "../footer/footer"
 
 import "./layout.scss"
 
 const Layout = ({ title, children }) => {
+  
   return (
     <>
         <Header />

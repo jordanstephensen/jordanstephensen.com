@@ -1,9 +1,9 @@
 import React from "react"
 
-import Card from "../components/card"
-import Layout from "../components/layout"
-import Pill from "../components/pill"
-import Background from "../components/background"
+import Card from "../components/card/card"
+import Layout from "../components/layout/layout"
+import Pill from "../components/pill/pill"
+import Background from "../components/background/background"
 import SEO from "../components/seo"
 
 import eternalthumb from '../images/eternal/eternal-thumbnail.svg'
