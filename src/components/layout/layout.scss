@@ -86,6 +86,44 @@ body {
   }
 }
 
+.js-projects {
+  display: flex;
+  gap: 24px;
+  flex-flow: column nowrap;
+
+  &__filters {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 8px;
+  }
+
+  &__card-container {
+    display: flex;
+    flex-flow: row wrap;
+
+    &--uxui {
+      .js-projects__card-container__card--branding,
+      .js-projects__card-container__card--type {
+        display: none;
+      }
+    }
+
+    &--branding {
+      .js-projects__card-container__card--uxui,
+      .js-projects__card-container__card--type {
+        display: none;
+      }
+    }
+
+    &--type {
+      .js-projects__card-container__card--uxui,
+      .js-projects__card-container__card--branding {
+        display: none;
+      }
+    }
+  }
+}
+
 .image {
   &--body {
     width: 95vw;

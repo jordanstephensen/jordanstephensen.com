@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Jordan Stephensen",
   "dependencies": {
+    "classnames": "^2.3.2",
     "gatsby": "^2.32.9",
     "gatsby-image": "^2.11.0",
     "gatsby-plugin-manifest": "^2.12.1",
