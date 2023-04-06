@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React from "react"
 import twitter from '../../images/social/twitter.svg'
 import instagram from '../../images/social/instagram.svg'

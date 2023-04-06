@@ -1,19 +1,27 @@
 import PropTypes from "prop-types"
 import React from "react"
+import Link from "../../components/link/link"
+import Pill from "../../components/pill/pill"
 
 import './card.scss'
 
-const Card = ({ image, title, year, button, target, children }) => (
+const Card = ({ image, title, category, descriptor, year, link, target, children }) => (
   <div className="card">
-        <div className="card__contents">
-          <div className="card__contents__image-container">
-              <img className="card__contents__image-container--img" src={image} alt={title}/>
+        <div className="card-contents">
+          <div className="card-contents__image-container">
+              <img className="card-contents__image-container--img" src={image} alt={title}/>
           </div>
-          <div className="card__contents__text-container">
+          <div className="card-contents__text-container">
             <h3>{title}</h3>
-            <div className="card__contents__pill-container">{children}</div>
-            <a href={button} target={target} rel="nofollow" >See more</a>
-            <h3>{year}</h3>
+            <div className="card-contents__text-container__year-container">
+              <h4>{year}</h4>
+              <Pill className="card-contents__text-container__year-container__pill--primary" label={category}/>
+              <Pill className="card-contents__text-container__year-container__pill--secondary" label={descriptor}/>
+            </div>
+            <div className="card-contents__children">
+              {children}
+            </div>
+            <Link className="card-contents__link" href={link} target={target}>See more</Link>
           </div>
         </div>
         <div className="card__corners">
@@ -36,8 +44,10 @@ const Card = ({ image, title, year, button, target, children }) => (
 Card.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
+  category: PropTypes.string,
+  descriptor: PropTypes.string,
   year: PropTypes.string,
-  button: PropTypes.string,
+  link: PropTypes.string,
   children: PropTypes.string,
 }
 

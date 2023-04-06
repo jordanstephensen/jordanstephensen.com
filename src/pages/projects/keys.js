@@ -27,12 +27,12 @@ const Keys = () => (
         </p>
       </div>
     </div>
-    <img className="bodyimage" src={alphabet} alt="Keys stencil font alphabet"/>
-    <img className="bodyimage" src={numbers} alt="Keys stencil font numbers"/>
-    <img className="bodyimage" src={symbols} alt="Keys stencil font symbols"/>
-    <img className="bodyimage" src={diacritics1} alt="Keys stencil font diacritics"/>
-    <img className="bodyimage" src={diacritics2} alt="Keys stencil font diacritics"/>
-    <img className="bodyimage" src={text} alt="Keys stencil font text samples"/>
+    <img className="image--body" src={alphabet} alt="Keys stencil font alphabet"/>
+    <img className="image--body" src={numbers} alt="Keys stencil font numbers"/>
+    <img className="image--body" src={symbols} alt="Keys stencil font symbols"/>
+    <img className="image--body" src={diacritics1} alt="Keys stencil font diacritics"/>
+    <img className="image--body" src={diacritics2} alt="Keys stencil font diacritics"/>
+    <img className="image--body" src={text} alt="Keys stencil font text samples"/>
     <h3>
       <a href="https://github.com/jordanstephensen/keys-stencil" target="_blank" rel="noreferrer"> Source Files</a>
     </h3>

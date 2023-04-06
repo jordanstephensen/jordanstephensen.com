@@ -24,10 +24,10 @@ const Eternal = () => (
         </p>
       </div>
     </div>
-    <img className="bodyimage" src={cover} alt="Eternal display font"/>
-    <img className="bodyimage" src={alphabet} alt="Eternal display font alphabet"/>
-    <img className="bodyimage" src={numbers} alt="Eternal display font numbers"/>
-    <img className="bodyimage" src={symbols} alt="Eternal display font symbols"/>
+    <img className="image--body" src={cover} alt="Eternal display font"/>
+    <img className="image--body" src={alphabet} alt="Eternal display font alphabet"/>
+    <img className="image--body" src={numbers} alt="Eternal display font numbers"/>
+    <img className="image--body" src={symbols} alt="Eternal display font symbols"/>
 
   </Layout>
 )

@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 import eternalthumb from '../images/eternal/eternal-thumbnail.svg'
 import keysthumb from '../images/keys/keys-thumbnail.svg'
 import agourathumb from '../images/agoura/agoura-thumbnail.svg'
+import mspthumb from '../images/msp/msp-thumbnail.svg'
 import logo from '../images/js-logo.svg'
 
 
@@ -17,42 +18,72 @@ const Work = () => (
     <SEO title="Projects" />
     <Card 
       image={logo}
-      button="https://github.com/jordanstephensen/jordanstephensen.com"
+      link="https://github.com/jordanstephensen/jordanstephensen.com"
       target="_blank"
       title="Personal site"
+      category="UX/UI"
+      descriptor="Website"
       year="2020"
     >
-      <Pill label="Web design" /><Pill label="React" /><Pill label="JSX" /><Pill label="SCSS" /><br /><Pill label="Meta" /><Pill label="Open-source" />
+      <small>
+        My personal website. Built using Gatsby and is hosted on Netlify.
+      </small>
     </Card>
 
     <Card 
       image={eternalthumb}
-      button="/projects/eternal"
+      link="/projects/eternal"
       target="_self"
       title="Eternal"
+      category="Type design"
+      descriptor="Display Mono"
       year="2020"
     >
-      <Pill label="Typeface" /><Pill label="Display" /><Pill label="Open-source" /><br />
+      <small>
+        A fun dotted display mono. Limited character set.
+      </small>
     </Card>
 
     <Card 
       image={keysthumb}
-      button="/projects/keys"
+      link="/projects/keys"
       target="_self"
       title="Keys"
+      category="Type design"
+      descriptor="Stencil"
       year="2018"
     >
-      <Pill label="Typeface" /><Pill label="Display" /><Pill label="Stencil" /><Pill label="Open-source" /><br />
+      <small>
+        A blocky, geometric stencil display font.
+      </small>
     </Card>
 
     <Card 
       image={agourathumb}
-      button="/projects/agoura"
+      link="/projects/agoura"
       target="_self"
       title="Agoura"
+      category="Type design"
+      descriptor="Display Serif"
       year="2020"
     >
-      <Pill label="Typeface" /><Pill label="Display" /><Pill label="Serif" /><br />
+      <small>
+        A display serif. Not yet finished.
+      </small>
+    </Card>
+
+    <Card 
+      image={mspthumb}
+      link="https://www.behance.net/gallery/78359409/Mercury-Specialty-Products"
+      target="_blank"
+      title="MSP"
+      category="Branding"
+      descriptor="Logo & Identity"
+      year="2019"
+    >
+      <small>
+        Mercury Specialty Projects.
+      </small>
     </Card>
     <Background />
   </Layout>

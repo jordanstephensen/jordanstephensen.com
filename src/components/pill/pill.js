@@ -3,11 +3,12 @@ import React from "react"
 
 import './pill.scss'
 
-const Pill = ({ label }) => (
-        <h6 class="pill">{label}</h6> 
+const Pill = ({ className, label }) => (
+        <h6 className={`pill ${className}`}>{label}</h6> 
 )
 
 Pill.propTypes = {
+  className: PropTypes.string,
   children: PropTypes.string,
 }
 
