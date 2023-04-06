@@ -46,6 +46,10 @@
       font-size: 16px;
       line-height: 22px;
 
+      &--active {
+        box-shadow: inset 0px 0px 0px 40px #1502FF;
+      }
+
       & a {
         margin-right: 10px;
       }

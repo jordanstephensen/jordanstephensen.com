@@ -46,8 +46,8 @@ class Header extends React.Component {
             </Link>
           </h4>
           <div className="header-contents__nav-links">
-            <Link to="/about">ABOUT</Link>
-            <Link to="/projects">PROJECTS</Link>
+            <Link activeClassName="header-contents__nav-links--active" to="/about">ABOUT</Link>
+            <Link activeClassName="header-contents__nav-links--active" to="/projects">PROJECTS</Link>
             <a href="mailto:jordanstephensen@gmail.com" target="_blank" rel="noreferrer">CONTACT<img className="header-contents__nav-links-icon" src={mail} alt="mail icon"/></a>
           </div>
       </div>
