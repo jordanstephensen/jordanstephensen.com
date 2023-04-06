@@ -15,9 +15,9 @@ const Link = ({ href, target, rel, children }) => (
             }
     >
         {children} 
-        &nbsp;
+        
         { target === '_blank' && (
-            <img className="popout-icon" src={popout} alt="pop out icon"/>
+            <img className="popout-icon link__popout-icon" src={popout} alt="pop out icon"/>
         )}
         </a>
     )

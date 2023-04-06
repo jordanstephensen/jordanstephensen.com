@@ -33,7 +33,6 @@ const Work = () => (
     <Card 
       image={eternalthumb}
       link="/projects/eternal"
-      target="_self"
       title="Eternal"
       category="Type design"
       descriptor="Display Mono"
@@ -47,7 +46,6 @@ const Work = () => (
     <Card 
       image={keysthumb}
       link="/projects/keys"
-      target="_self"
       title="Keys"
       category="Type design"
       descriptor="Stencil"
@@ -61,7 +59,6 @@ const Work = () => (
     <Card 
       image={agourathumb}
       link="/projects/agoura"
-      target="_self"
       title="Agoura"
       category="Type design"
       descriptor="Display Serif"
