@@ -21,21 +21,6 @@ const Background = () => (
           /> 
         </path>
       </g>
-      <defs>
-        <filter id="filter0_d" x="0.495117" y="0.924805" width="1080" height="1080" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-          <feOffset dy="4"/>
-          <feGaussianBlur stdDeviation="15"/>
-          <feColorMatrix type="matrix" values="0 0 0 0 0.265804 0 0 0 0 0.00784314 0 0 0 0 1 0 0 0 0.2 0"/>
-          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-        </filter>
-        <linearGradient id="paint0_linear" x1="457.378" y1="31.9248" x2="457.378" y2="691.16" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#1502FF"/>
-          <stop offset="1" stop-color="#4402FF"/>
-        </linearGradient>
-      </defs>
     </svg>
   </div>
 )
