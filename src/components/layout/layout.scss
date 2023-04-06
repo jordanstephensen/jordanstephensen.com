@@ -12,6 +12,14 @@ body {
   margin: 0px;
 }
 
+.inner-peace {
+  &__text {
+    text-align: center;
+    color: white;
+    margin: auto;
+  }
+}
+
 #outerglow {
   display: flex;
   justify-content: center;
@@ -24,10 +32,6 @@ body {
 #innerglow {
   position: absolute;
   border-radius: 10vw;
-  -webkit-filter: blur(100px);
-  -moz-filter: blur(100px);
-  -o-filter: blur(100px);
-  -ms-filter: blur(100px);
   filter: blur(100px);
   width: 70vw;
   height: 70vh;
@@ -44,6 +48,10 @@ body {
   72%{background: #07b39b}
   84%{background: #6fba82}
   100%{background: #f79533}
+}
+
+.secrets {
+  visibility: hidden;
 }
 
 .contents {
@@ -105,10 +113,6 @@ body {
     height: 0.6em;
     width: 0.6em;  
   }
-}
-
-.secrets {
-  visibility: hidden;
 }
 
 

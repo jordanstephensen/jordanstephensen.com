@@ -140,7 +140,8 @@
                 &__year-container {
                     flex-flow: column nowrap;
                     align-items: flex-start;
-                    margin-bottom: 16px;
+                    margin-bottom: 12px;
+                    gap: 4px;
                     
                     &__pill--secondary {
                         display: none;
