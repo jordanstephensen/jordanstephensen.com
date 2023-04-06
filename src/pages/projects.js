@@ -12,6 +12,7 @@ import keysthumb from '../images/keys/keys-thumbnail.svg'
 import agourathumb from '../images/agoura/agoura-thumbnail.svg'
 import mspthumb from '../images/msp/msp-thumbnail.svg'
 import uxuithumb from '../images/uxui/uxui-thumbnail.svg'
+import healthiconsthumb from '../images/healthicons/healthicons-thumbnail.svg'
 import logo from '../images/js-logo.svg'
 
 
@@ -36,13 +37,19 @@ const Work = ({  }) => {
             active={active === 'uxui'}
           />
           <Filter 
+            label="Iconography"
+            name='icons'
+            onClick={(e) => setActive('icons')}
+            active={active === 'icons'}
+          />
+          <Filter 
             label="Branding"
             name='branding'
             onClick={(e) => setActive('branding')}
             active={active === 'branding'}
           />
           <Filter 
-            label="Type"
+            label="Type Design"
             name='type'
             onClick={(e) => setActive('type')}
             active={active === 'type'}
@@ -54,6 +61,7 @@ const Work = ({  }) => {
               'js-projects__card-container',
               {
                 'js-projects__card-container--uxui': active === 'uxui',
+                'js-projects__card-container--icons': active === 'icons',
                 'js-projects__card-container--branding': active === 'branding',
                 'js-projects__card-container--type': active === 'type',
               }
@@ -71,7 +79,7 @@ const Work = ({  }) => {
             year="Ongoing"
           >
             <small>
-              My personal website. Built using Gatsby and hosted on Netlify.
+              My personal website. Built from the ground up using Gatsby.
             </small>
           </Card>
 
@@ -87,6 +95,20 @@ const Work = ({  }) => {
           >
             <small>
               An archive of mostly open-source UX/UI tools and resources.
+            </small>
+          </Card>
+
+          <Card 
+            className='js-projects__card-container__card--icons'
+            image={healthiconsthumb}
+            link="/projects/healthicons"
+            title="Health Icons"
+            category="Iconography"
+            descriptor="Open-Source"
+            year="2021"
+          >
+            <small>
+              An open-source icon project I contributed to in 2021
             </small>
           </Card>
 

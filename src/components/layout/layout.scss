@@ -93,7 +93,7 @@ body {
 
   &__filters {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     gap: 8px;
   }
 
@@ -103,21 +103,32 @@ body {
 
     &--uxui {
       .js-projects__card-container__card--branding,
-      .js-projects__card-container__card--type {
+      .js-projects__card-container__card--type,
+      .js-projects__card-container__card--icons {
         display: none;
       }
     }
 
     &--branding {
       .js-projects__card-container__card--uxui,
-      .js-projects__card-container__card--type {
+      .js-projects__card-container__card--type,
+      .js-projects__card-container__card--icons {
         display: none;
       }
     }
 
     &--type {
       .js-projects__card-container__card--uxui,
-      .js-projects__card-container__card--branding {
+      .js-projects__card-container__card--branding,
+      .js-projects__card-container__card--icons {
+        display: none;
+      }
+    }
+
+    &--icons {
+      .js-projects__card-container__card--uxui,
+      .js-projects__card-container__card--branding,
+      .js-projects__card-container__card--type {
         display: none;
       }
     }
@@ -228,7 +239,7 @@ h3 {
 
 h4 {
   font-family: Helvetica;
-  // font-weight: bold;
+  font-weight: 600;
   font-size: 22px;
   line-height: 26px;
   box-shadow: none;
