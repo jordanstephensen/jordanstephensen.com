@@ -2,6 +2,8 @@ import React from "react"
 
 import Layout from "../../components/layout/layout"
 import SEO from "../../components/seo"
+import Link from "../../components/link/link"
+
 import alphabet from "../../images/keys/keys-alphabet.svg"
 import numbers from "../../images/keys/keys-numbers.svg"
 import symbols from "../../images/keys/keys-symbols.svg"
@@ -16,7 +18,7 @@ const Keys = () => (
       <div className="contents__text-container--2col">
         <h3>Open-source<br/>
           SIL Open Font License 1.1<br/><br/>
-          <a href="https://github.com/jordanstephensen/keys-stencil" target="_blank" rel="noreferrer"> Source Files</a>
+          <Link href="https://github.com/jordanstephensen/keys-stencil" target="_blank"> Source Files</Link>
         </h3>
       </div>
       <div className="contents__text-container--2col">
@@ -34,7 +36,7 @@ const Keys = () => (
     <img className="image--body" src={diacritics2} alt="Keys stencil font diacritics"/>
     <img className="image--body" src={text} alt="Keys stencil font text samples"/>
     <h3>
-      <a href="https://github.com/jordanstephensen/keys-stencil" target="_blank" rel="noreferrer"> Source Files</a>
+      <Link href="https://github.com/jordanstephensen/keys-stencil" target="_blank"> Source Files</Link>
     </h3>
   </Layout>
 )

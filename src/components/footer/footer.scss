@@ -13,7 +13,7 @@
   background: rgba(0,0,0, 0.5);
   backdrop-filter: blur(10px);
 
-  &__contents {
+  &-contents {
     max-width: 960px;
     width: 100vw;
     display: flex;
@@ -21,24 +21,24 @@
     justify-content: space-between;
     align-items: baseline;
     margin: auto;
-  }
 
-&__copyright {
-    flex-grow: 1;
-    color: white;
-  }
-
-&__links a {
-    box-shadow: none;
-    flex-grow: 1;
-    padding-top: 13px;
+    &__copyright {
+      flex-grow: 1;
+      color: white;
+    }
+  
+    &__links a {
+      box-shadow: none;
+      flex-grow: 1;
+      padding-top: 13px;
+    }
   }
 }
 
 /* Media Queries */
 
 @media (max-width: 1111px) {
-  .footercontents {
+  .footer-contents {
     padding: 1rem;
   }
 }

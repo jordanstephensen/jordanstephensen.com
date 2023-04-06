@@ -8,11 +8,11 @@ import './footer.scss'
 
 const Footer = ({ children }) => (
   <div className="footer">
-    <div className="footer__contents">
-      <h4 className="footer__copyright">
+    <div className="footer-contents">
+      <h4 className="footer-contents__copyright">
         © {new Date().getFullYear()}
       </h4>
-      <div className="footer__links">
+      <div className="footer-contents__links">
         <a href="https://www.twitter.com/jwstephensen" target="_blank" rel="noreferrer">
           <img 
             src={twitter} 

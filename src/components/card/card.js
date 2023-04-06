@@ -15,8 +15,8 @@ const Card = ({ image, title, category, descriptor, year, link, target, children
             <h3>{title}</h3>
             <div className="card-contents__text-container__year-container">
               <h4>{year}</h4>
-              <Pill className="card-contents__text-container__year-container__pill--primary" label={category}/>
-              <Pill className="card-contents__text-container__year-container__pill--secondary" label={descriptor}/>
+              <Pill className="card-contents__text-container__year-container__pill card-contents__text-container__year-container__pill--primary" label={category}/>
+              <Pill className="card-contents__text-container__year-container__pill card-contents__text-container__year-container__pill--secondary" label={descriptor}/>
             </div>
             <div className="card-contents__children">
               {children}

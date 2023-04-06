@@ -5,7 +5,6 @@
 
 html, body {
   height: 100%;
-  background: black;
 }
 
 body {
@@ -91,6 +90,8 @@ body {
 
   &--2col {
     max-width: 470px;
+    width: 100%;
+    height: auto;
   }
 
   &--about-photo {
@@ -191,10 +192,6 @@ small {
 
 /* Media Queries */
 
-@media (max-width: 500px) {
-
-}
-
 @media (max-width: 666px) {
   .contents {
     &__text-container {
@@ -208,5 +205,11 @@ small {
 
   .background {
     display: none; 
+  }
+
+  .image {
+    &--body {
+      margin: 0px;
+    }
   }
 }
