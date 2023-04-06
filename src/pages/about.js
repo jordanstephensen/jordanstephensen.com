@@ -22,7 +22,7 @@ const About = () => (
         </p>  
       </div>
       <div className="contents__text-container--2col">
-        <img class="image--2col image--about-photo" src={me} alt="a photo of myself" />
+        <img class="image--2col image--about-photo" src={me} alt="Myself" />
       </div>
     </div>
     <Background />

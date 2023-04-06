@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
@@ -14,8 +13,8 @@ const Styles = () => (
       <h4>Header 4</h4><br />
       <h5>Header 5</h5><br />
       <h6>Header 6</h6><br />
-      <big>I am a block of big text with a <a>text link</a></big><br />
-      <p>I am a block of paragraph text with a <a>text link</a></p>
+      <big>I am a block of big text with a <a href="/styles">text link</a></big><br />
+      <p>I am a block of paragraph text with a <a href="/styles">text link</a></p>
     </div>
  </Layout>
 )

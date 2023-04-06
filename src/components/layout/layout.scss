@@ -116,6 +116,42 @@ body {
 }
 
 
+
+
+
+.not-found {
+  width: 100vw;
+  height: 100vh;
+  background: #B20000;
+  padding-top: 6rem;
+  color: white;
+
+  &__content {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 0 auto;
+    max-width: 900px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    text-align: center;
+  }
+
+  & a {
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+
+
+
+
 /* TYPE */
 
 h1 {
