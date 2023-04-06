@@ -5,6 +5,7 @@
 
 html, body {
   height: 100%;
+  background: black;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;  
-  animation: animatedGradient 20s infinite;
+  animation: animatedGradient 18s infinite;
   width: 100vw;
   height: 100vh;
 }
@@ -97,9 +98,12 @@ body {
   }
 }
 
-.popout-icon {
-  height: 0.6em;
-  width: 0.6em;
+.icon {
+  &-popout,
+  &-mail {
+    height: 0.6em;
+    width: 0.6em;  
+  }
 }
 
 .secrets {

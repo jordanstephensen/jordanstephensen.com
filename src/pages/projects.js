@@ -2,7 +2,6 @@ import React from "react"
 
 import Card from "../components/card/card"
 import Layout from "../components/layout/layout"
-import Pill from "../components/pill/pill"
 import Background from "../components/background/background"
 import SEO from "../components/seo"
 
@@ -26,7 +25,7 @@ const Work = () => (
       year="2020"
     >
       <small>
-        My personal website. Built using Gatsby and is hosted on Netlify.
+        My personal website. Built using Gatsby and hosted on Netlify.
       </small>
     </Card>
 
@@ -79,7 +78,7 @@ const Work = () => (
       year="2019"
     >
       <small>
-        Mercury Specialty Projects.
+        Mercury Specialty Projects, a metal fabrication company.
       </small>
     </Card>
     <Background />

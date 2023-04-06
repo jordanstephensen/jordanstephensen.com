@@ -12,7 +12,7 @@
   z-index: 100;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 
-  &__contents {
+  &-contents {
     max-width: 960px;
     width: 100vw;
     display: flex;
@@ -21,7 +21,7 @@
     align-items: baseline;
     margin: auto;
 
-    &--site-title {
+    &__site-title {
       flex-grow: 1;
 
       & a {
@@ -39,7 +39,7 @@
       }
     }
 
-    &--nav-links {
+    &__nav-links {
       flex-grow: 0;
       font-family: Helvetica;
       font-style: normal;
@@ -48,6 +48,13 @@
 
       & a {
         margin-right: 10px;
+      }
+
+      &-icon {
+        height: 0.8em;
+        width: 0.8em;
+        margin-left: 8px;
+        opacity: 80%;
       }
     }
   }
