@@ -42,7 +42,7 @@ const Work = ({  }) => {
             active={active === 'branding'}
           />
           <Filter 
-            label="Type Design"
+            label="Type"
             name='type'
             onClick={(e) => setActive('type')}
             active={active === 'type'}
