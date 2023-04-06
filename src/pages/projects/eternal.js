@@ -30,7 +30,9 @@ const Eternal = () => (
     <img className="image--body" src={alphabet} alt="Eternal display font alphabet"/>
     <img className="image--body" src={numbers} alt="Eternal display font numbers"/>
     <img className="image--body" src={symbols} alt="Eternal display font symbols"/>
-    <Link href="https://github.com/jordanstephensen/eternal-mono" target="_blank">Source Files</Link>
+    <h3>
+      <Link href="https://github.com/jordanstephensen/eternal-mono" target="_blank">Source Files</Link>
+    </h3>
   </Layout>
 )
 

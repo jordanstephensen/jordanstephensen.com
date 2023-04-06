@@ -29,7 +29,9 @@ const Eternal = () => (
     </div>
     <img className="image--body" src={lineicons} alt="Line variation of Health Icons"/>
     <img className="image--body" src={solidicons} alt="Solid variation of Health Icons"/>
-    <Link href="https://healthicons.org/" target="_blank">Project Website</Link>
+    <h3>
+      <Link href="https://healthicons.org/" target="_blank">Project Website</Link>
+    </h3>
   </Layout>
 )
 
