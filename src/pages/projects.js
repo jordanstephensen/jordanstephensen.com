@@ -11,6 +11,7 @@ import eternalthumb from '../images/eternal/eternal-thumbnail.svg'
 import keysthumb from '../images/keys/keys-thumbnail.svg'
 import agourathumb from '../images/agoura/agoura-thumbnail.svg'
 import mspthumb from '../images/msp/msp-thumbnail.svg'
+import ovthumb from '../images/ovclub/ovclub-thumbnail.svg'
 import uxuithumb from '../images/uxui/uxui-thumbnail.svg'
 import healthiconsthumb from '../images/healthicons/healthicons-thumbnail.svg'
 import logo from '../images/js-logo.svg'
@@ -126,6 +127,22 @@ const Work = ({  }) => {
               Mercury Specialty Projects, a metal fabrication company.
             </small>
           </Card>
+
+          <Card 
+            className='js-projects__card-container__card--branding'
+            image={ovthumb}
+            link="https://www.behance.net/gallery/170860669/OV-Club-Branding"
+            target="_blank"
+            title="OV Club"
+            category="Branding"
+            descriptor="Logo & Identity"
+            year="2017"
+          >
+            <small>
+              OV Club is a nightclub located in Winnipeg, Manitoba.
+            </small>
+          </Card>
+
 
           <Card 
             className='js-projects__card-container__card--type'
