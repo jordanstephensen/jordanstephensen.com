@@ -7,7 +7,7 @@ import characters from "../../images/agoura/agoura-characters.svg"
 
 const Agoura = () => (
   <Layout title="Agoura Display">
-    <SEO title="Eternal Monospace Display Font" />
+    <SEO title="Agoura Display Font" />
     <div className="contents__text-container">
       <div className="contents__text-container--2col">
         <h3>Not yet released<br/>
