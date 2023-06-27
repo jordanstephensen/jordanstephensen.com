@@ -115,6 +115,7 @@ body {
     &--uxui {
       .js-projects__card-container__card--branding,
       .js-projects__card-container__card--type,
+      .js-projects__card-container__card--3d,
       .js-projects__card-container__card--icons {
         display: none;
       }
@@ -123,6 +124,7 @@ body {
     &--branding {
       .js-projects__card-container__card--uxui,
       .js-projects__card-container__card--type,
+      .js-projects__card-container__card--3d,
       .js-projects__card-container__card--icons {
         display: none;
       }
@@ -131,6 +133,7 @@ body {
     &--type {
       .js-projects__card-container__card--uxui,
       .js-projects__card-container__card--branding,
+      .js-projects__card-container__card--3d,
       .js-projects__card-container__card--icons {
         display: none;
       }
@@ -139,6 +142,16 @@ body {
     &--icons {
       .js-projects__card-container__card--uxui,
       .js-projects__card-container__card--branding,
+      .js-projects__card-container__card--3d,
+      .js-projects__card-container__card--type {
+        display: none;
+      }
+    }
+
+    &--3d {
+      .js-projects__card-container__card--uxui,
+      .js-projects__card-container__card--branding,
+      .js-projects__card-container__card--icons,
       .js-projects__card-container__card--type {
         display: none;
       }

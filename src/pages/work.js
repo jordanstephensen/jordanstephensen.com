@@ -56,6 +56,12 @@ const Work = ({  }) => {
             onClick={(e) => setActive('type')}
             active={active === 'type'}
           />
+          <Filter 
+            label="3D"
+            name='3d'
+            onClick={(e) => setActive('3d')}
+            active={active === '3d'}
+          />        
         </div>
         <div 
           className={
@@ -66,11 +72,12 @@ const Work = ({  }) => {
                 'js-projects__card-container--icons': active === 'icons',
                 'js-projects__card-container--branding': active === 'branding',
                 'js-projects__card-container--type': active === 'type',
+                'js-projects__card-container--3d': active === '3d',
               }
             ])
           }
         >
-          <Card 
+          {/* <Card 
             className='js-projects__card-container__card--uxui'
             image={boldthumb}
             link="/work/bold"
@@ -82,8 +89,7 @@ const Work = ({  }) => {
             <small>
               Product design case studies from my time at Bold Commerce, a Winnipeg-based ecommerce startup.
             </small>
-          </Card>
-
+          </Card> */}
           <Card 
             className='js-projects__card-container__card--uxui'
             image={uxuithumb}
@@ -185,6 +191,34 @@ const Work = ({  }) => {
               A display serif. Not yet finished.
             </small>
           </Card>
+
+          {/* <Card 
+            className='js-projects__card-container__card--3d'
+            image={agourathumb}
+            link="/work/3d-sketchbook"
+            title="3D Sketchbook"
+            category="3D"
+            descriptor="Sculptures"
+            year="Ongoing"
+          >
+            <small>
+              A selection of 3D sketches. Personal work, mostly done in Nomad Sculpt.
+            </small>
+          </Card>
+
+          <Card 
+            className='js-projects__card-container__card--3d'
+            image={agourathumb}
+            link="/work/bar-eclipse"
+            title="Bar Eclipse"
+            category="3D"
+            descriptor="Environment"
+            year="2023"
+          >
+            <small>
+              An 80's dive bar environment exploration. Done in Blender.
+            </small>
+          </Card> */}
         </div>
       </div>
       <Background />
