@@ -1,6 +1,7 @@
 import React from "react"
 
 import Layout from "../../components/layout/layout"
+import Background from "../../components/background/background"
 import SEO from "../../components/seo"
 import Card from "../../components/card/card"
 
@@ -28,10 +29,10 @@ const Bold = () => (
       <Card 
         className='js-projects__card-container__card--type'
         image={boldthumb}
-        link="/projects/bold/bevy-design-system"
+        link="/work/bold/bevy-design-system"
         title="Bevy Design System"
         category="UX/UI"
-        descriptor="Design System"
+        descriptor="Design Systems"
         year="2022–2023"
         >
         <small>
@@ -41,7 +42,7 @@ const Bold = () => (
         <Card 
         className='js-projects__card-container__card--type'
         image={boldthumb}
-        link="/projects/bold/build-with-bold"
+        link="/work/bold/build-with-bold"
         title="Empowering Developers to Build with Bold"
         category="UX/UI"
         descriptor="Product Design"
@@ -53,6 +54,7 @@ const Bold = () => (
         </Card> 
 
       </div>
+      <Background/>
   </Layout>
 )
 

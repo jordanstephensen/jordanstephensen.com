@@ -70,10 +70,10 @@ const Work = ({  }) => {
             ])
           }
         >
-          {/* <Card 
+          <Card 
             className='js-projects__card-container__card--uxui'
             image={boldthumb}
-            link="/projects/bold"
+            link="/work/bold"
             title="Bold Commerce Case Studies"
             category="UX/UI"
             descriptor="Product Design"
@@ -82,7 +82,7 @@ const Work = ({  }) => {
             <small>
               Product design case studies from my time at Bold Commerce, a Winnipeg-based ecommerce startup.
             </small>
-          </Card> */}
+          </Card>
 
           <Card 
             className='js-projects__card-container__card--uxui'
@@ -102,7 +102,7 @@ const Work = ({  }) => {
           <Card 
             className='js-projects__card-container__card--icons'
             image={healthiconsthumb}
-            link="/projects/healthicons"
+            link="/work/healthicons"
             title="Health Icons"
             category="Iconography"
             descriptor="Open-Source"
@@ -147,7 +147,7 @@ const Work = ({  }) => {
           <Card 
             className='js-projects__card-container__card--type'
             image={eternalthumb}
-            link="/projects/eternal"
+            link="/work/eternal"
             title="Eternal"
             category="Type design"
             descriptor="Display Mono"
@@ -161,7 +161,7 @@ const Work = ({  }) => {
           <Card 
             className='js-projects__card-container__card--type'
             image={keysthumb}
-            link="/projects/keys"
+            link="/work/keys"
             title="Keys"
             category="Type design"
             descriptor="Stencil"
@@ -175,7 +175,7 @@ const Work = ({  }) => {
           <Card 
             className='js-projects__card-container__card--type'
             image={agourathumb}
-            link="/projects/agoura"
+            link="/work/agoura"
             title="Agoura"
             category="Type design"
             descriptor="Serif"
