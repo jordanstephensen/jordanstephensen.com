@@ -21,8 +21,8 @@ const Work = ({  }) => {
   const [active, setActive] = useState('all')
 
   return (
-    <Layout title="Projects">
-      <SEO title="Projects" />
+    <Layout title="Work">
+      <SEO title="Work" />
       <div className="js-projects">
         <div className="js-projects__filters">
           <Filter 

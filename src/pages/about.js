@@ -9,8 +9,6 @@ import me from '../images/JordanStephensen.png'
 const About = () => (
   <Layout>
     <SEO title="About" />
-    {/* <div className="contents__text-container">
-    </div> */}
     <div className="contents__text-container">
       <div className="contents__text-container--2col">
         <h3>Hello, I'm Jordan.<br /></h3> 
@@ -25,7 +23,6 @@ const About = () => (
         <img class="image--2col image--about-photo" src={me} alt="Myself" />
       </div>
     </div>
-    <Background />
   </Layout>
 )
 

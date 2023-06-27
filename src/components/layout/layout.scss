@@ -9,6 +9,9 @@ html, body {
 
 body {
   background: black;
+  // background: radial-gradient(236.43% 109.74% at 50% 118.89%,#B9C5BC 5%,#4088B4 25%,#003869 50%,#000F28 75%,#000 95%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0px;
 }
 
@@ -18,25 +21,45 @@ body {
     color: white;
     margin: auto;
   }
+
+  &__glow {
+    &--outer {
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+      animation: animatedGradient 18s infinite;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    &--inner {
+      position: absolute;
+      border-radius: 10vw;
+      filter: blur(100px);
+      width: 70vw;
+      height: 70vh;
+      animation: animatedGradient 10s infinite;
+    }
+  }
 }
 
-#outerglow {
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-  animation: animatedGradient 18s infinite;
-  width: 100vw;
-  height: 100vh;
-}
+// glow {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;  
+//   animation: animatedGradient 18s infinite;
+//   width: 100vw;
+//   height: 100vh;
+// }
 
-#innerglow {
-  position: absolute;
-  border-radius: 10vw;
-  filter: blur(100px);
-  width: 70vw;
-  height: 70vh;
-  animation: animatedGradient 10s infinite;
-}
+// #innerglow {
+//   position: absolute;
+//   border-radius: 10vw;
+//   filter: blur(100px);
+//   width: 70vw;
+//   height: 70vh;
+//   animation: animatedGradient 10s infinite;
+// }
 
 @keyframes animatedGradient {
   0%{background:#f79533}

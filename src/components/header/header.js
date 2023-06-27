@@ -31,14 +31,14 @@ class Header extends React.Component {
   render() {
     return (
     <div className={this.state.hasScrolled ? 'header HeaderScrolled' : 'header'}>
-      <h3>
-        <Link id="peacelink" to="/☮">
+      {/* <h3>
+        <Link className="peacelink" to="/☮">
           <img 
             src={peace} 
             alt="peace"
           />
         </Link>
-      </h3>
+      </h3> */}
       <div className="header-contents">
         <h4 className="header-contents__site-title">
             <Link to="/">
@@ -47,7 +47,7 @@ class Header extends React.Component {
           </h4>
           <div className="header-contents__nav-links">
             <Link activeClassName="header-contents__nav-links--active" to="/about">ABOUT</Link>
-            <Link activeClassName="header-contents__nav-links--active" to="/projects">PROJECTS</Link>
+            <Link activeClassName="header-contents__nav-links--active" to="/work">WORK</Link>
             <a href="mailto:jordanstephensen@gmail.com" target="_blank" rel="noreferrer">CONTACT<img className="header-contents__nav-links-icon" src={mail} alt="mail icon"/></a>
           </div>
       </div>
