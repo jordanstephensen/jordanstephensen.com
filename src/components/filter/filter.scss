@@ -1,30 +1,199 @@
+@import '../../styles/_colors.scss';
+
 .js-filter {
-    color: #F3FAF9;
+    color: $js-colors__text__light--primary;
     font-weight: 500;
     text-decoration: none;
     padding: 3px 12px 3px 12px;
-    box-shadow: inset 0px 0px 0px 1px #F3FAF9;
+    box-shadow: inset 0px 0px 0px 1px $js-colors__base__white;
     border-radius: 50px;
     cursor: crosshair;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 4px;
+    align-items: center;
+
+    &__color {
+      width: 8px;
+      height: 8px;
+      border-radius: 8px;
+      background-color: $js-colors__category--all;
+    }
+
+    &:hover {
+      box-shadow: inset 0px 0px 0px 40px $js-colors__category--all;
+      color: $js-colors__text__dark--primary;
+      transition: ease-out 0.2s;
+
+      .js-filter__color {
+        background-color: $js-colors__base__black;
+      }
+    }
+    
+    &:active {
+      color: $js-colors__category--all;
+      box-shadow: inset 0px 0px 0px 1px $js-colors__category--all;
+      transition: none;
+    }
+
+    &--active {
+      box-shadow: inset 0px 0px 0px 40px $js-colors__category--all;
+      color: $js-colors__text__dark--primary;
+
+      .js-filter__color {
+        background-color: $js-colors__base__black;
+      }
+
+      &.js-filter {
+        &--UXUI {
+          box-shadow: inset 0px 0px 0px 40px $js-colors__category--uxui;
+
+          .js-filter__color {
+            background-color: $js-colors__base__black;
+          }
+        }
+
+        &--Iconography {
+          box-shadow: inset 0px 0px 0px 40px $js-colors__category--iconography;
+
+          .js-filter__color {
+            background-color: $js-colors__base__black;
+          }
+        }
+
+        &--Branding {
+          box-shadow: inset 0px 0px 0px 40px $js-colors__category--branding;
+
+          .js-filter__color {
+            background-color: $js-colors__base__black;
+          }
+        }
+
+        &--Typography {
+          box-shadow: inset 0px 0px 0px 40px $js-colors__category--typography;
+
+          .js-filter__color {
+            background-color: $js-colors__base__black;
+          }
+        }
+
+        &--3D {
+          box-shadow: inset 0px 0px 0px 40px $js-colors__category--3d;
+
+          .js-filter__color {
+            background-color: $js-colors__base__black;
+          }
+        }
+      }
+
+    }
+
+    &--UXUI {
+      .js-filter {
+        &__color {
+          background-color: $js-colors__category--uxui;
+        }
+      }
+
+      &:hover {
+        box-shadow: inset 0px 0px 0px 40px $js-colors__category--uxui;
+      }
+
+      &:active {
+        color: $js-colors__category--uxui;
+        box-shadow: inset 0px 0px 0px 1px $js-colors__category--uxui;
   
-  &:hover {
-    box-shadow: inset 0px 0px 0px 40px yellow;
-    color: black;
-    transition: ease-out 0.2s;
-  }
+        .js-filter__color {
+          background-color: $js-colors__category--uxui;
+        }
+      }
+    }
+
+    &--Iconography {
+      .js-filter {
+        &__color {
+          background-color: $js-colors__category--iconography;
+        }
+      }
+
+      &:hover {
+        box-shadow: inset 0px 0px 0px 40px $js-colors__category--iconography;
+      }
+
+      &:active {
+        color: $js-colors__category--iconography;
+        box-shadow: inset 0px 0px 0px 1px $js-colors__category--iconography;
   
-  &:active {
-    color: yellow;
-    box-shadow: inset 0px 0px 0px 1px yellow;
-    transition: none;
-  }
+        .js-filter__color {
+          background-color: $js-colors__category--iconography;
+        }
+      }
+    }
+
+    &--Branding {
+      .js-filter {
+        &__color {
+          background-color: $js-colors__category--branding;
+        }
+      }
+
+      &:hover {
+        box-shadow: inset 0px 0px 0px 40px $js-colors__category--branding;
+      }
+
+      &:active {
+        color: $js-colors__category--branding;
+        box-shadow: inset 0px 0px 0px 1px $js-colors__category--branding;
+  
+        .js-filter__color {
+          background-color: $js-colors__category--branding;
+        }
+      }
+    }
+
+    &--Typography {
+      .js-filter {
+        &__color {
+          background-color: $js-colors__category--typography;
+        }
+      }
+
+      &:hover {
+        box-shadow: inset 0px 0px 0px 40px $js-colors__category--typography;
+      }
+
+      &:active {
+        color: $js-colors__category--typography;
+        box-shadow: inset 0px 0px 0px 1px $js-colors__category--typography;
+  
+        .js-filter__color {
+          background-color: $js-colors__category--typography;
+        }
+      }
+    }
+
+    &--3D {
+      .js-filter {
+        &__color {
+          background-color: $js-colors__category--3d;
+        }
+      }
+
+      &:hover {
+        box-shadow: inset 0px 0px 0px 40px $js-colors__category--3d;
+      }
+
+      &:active {
+        color: $js-colors__category--3d;
+        box-shadow: inset 0px 0px 0px 1px $js-colors__category--3d;
+  
+        .js-filter__color {
+          background-color: $js-colors__category--3d;
+        }
+      }
+    }
 
   p {
     margin-block-end: 0px;
-  }
-
-  &--active {
-    box-shadow: inset 0px 0px 0px 40px yellow;
-    color: black;
   }
 }

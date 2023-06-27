@@ -1,3 +1,5 @@
+@import '../../styles/_colors.scss';
+
 .js-footer {
   display: flex;
   flex-flow: row wrap;
@@ -10,7 +12,7 @@
   height: 100px;
   bottom: 0;
   z-index: 100;
-  background: rgba(0,0,0, 0.5);
+  background: $js-colors__alpha__dark--2;
   backdrop-filter: blur(10px);
 
   &-contents {
@@ -24,7 +26,7 @@
 
     &__copyright {
       flex-grow: 1;
-      color: white;
+      color: $js-colors__base__white;
     }
   
     &__links a {

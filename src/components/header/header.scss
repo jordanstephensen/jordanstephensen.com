@@ -1,3 +1,5 @@
+@import '../../styles/_colors.scss';
+
 .header {
   display: flex;
   flex-flow: row wrap;
@@ -12,8 +14,8 @@
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 
   &--scrolled {
-    background: rgba(0,0,0, 0.5);
-    border-bottom: 1px solid white;
+    background: $js-colors__alpha__dark--2;
+    border-bottom: 1px solid $js-colors__base__white;
     backdrop-filter: blur(10px);
     top: 0;
   }
@@ -53,7 +55,7 @@
       line-height: 22px;
 
       &--active {
-        box-shadow: inset 0px 0px 0px 40px #1502FF;
+        box-shadow: inset 0px 0px 0px 40px $js-colors__base__blue;
       }
 
       & a {
@@ -78,7 +80,7 @@
   padding: 0px 13px;
 
   &:hover {
-    box-shadow: inset 0px 0px 0px 30px #1502FF;
+    box-shadow: inset 0px 0px 0px 30px $js-colors__base__blue;
   }
 }
 

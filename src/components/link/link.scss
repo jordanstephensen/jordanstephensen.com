@@ -1,20 +1,22 @@
+@import '../../styles/_colors.scss';
+
 a {
-    color: #F3FAF9;
+    color: $js-colors__base__white;
     text-decoration: none;
     padding: 3px 12px 3px 12px;
-    box-shadow: inset 0px 0px 0px 1px #F3FAF9;
+    box-shadow: inset 0px 0px 0px 1px $js-colors__base__white;
     border-radius: 50px;
     cursor: crosshair;
   }
   
   a:hover {
-    box-shadow: inset 0px 0px 0px 40px #1502FF;
+    box-shadow: inset 0px 0px 0px 40px $js-colors__base__blue;
     transition: ease-out 0.2s;
   }
   
   a:active {
-    color: #1502FF;
-    box-shadow: inset 0px 0px 0px 1px #1502FF;
+    color: $js-colors__base__blue;
+    box-shadow: inset 0px 0px 0px 1px $js-colors__base__blue;
     transition: none;
   }
 

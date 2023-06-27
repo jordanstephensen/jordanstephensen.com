@@ -34,6 +34,8 @@ To accompany the rebrand, the product design team felt it was time to also recon
 Bevy was a React library born out of necessity in Bold’s early start-up days as they strove to create a shared design language across the various apps begin built. Bevy did the job but was far from perfect — lacking the flexibility needed to build the more complex solutions now present in Bold’s suite of apps. It was also beginning to feel pretty dated and out of touch with current design trends.</p>
     </div>
     <img className="image--body" src={bevycover} alt="Agoura display font"/>
+    <small className="text--caption">Note, I had no involvement in Bold’s original brand design, or the rebrand. The rebrand was done by an external agency, Matchstic. Brand assets provided here are only for context.
+I did however work on the illustration systems and iconography shown here.</small>
     <div className="contents__text-container--column">
       <h3>Getting Started</h3>
       <h4>Workshops</h4>

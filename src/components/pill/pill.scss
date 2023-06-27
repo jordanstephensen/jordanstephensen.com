@@ -1,6 +1,8 @@
+@import '../../styles/_colors.scss';
+
 .pill {
-    color: black;
-    background: white;
+    color: $js-colors__text__dark--primary;
+    background: $js-colors__base__white;
     padding: 2px 5px;
     margin: 2px;
     border-radius: 30px;

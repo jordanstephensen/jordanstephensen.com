@@ -15,7 +15,7 @@ const Agoura = () => (
         <h3>2021–Present<br/></h3>
       </div>
       <div className="contents__text-container--column">
-        <p>A selection of personal work. Relatively undeveloped sketches done in Nomad Sculpt. Procreate and Figma also used for some elements.</p>
+        <p>A selection of personal work. Relatively undeveloped sketches mostly done in Nomad Sculpt. Procreate and Figma also used for some elements.</p>
       </div>
     </div>
     <img className="image--body" src={sculpture} alt="Agoura display font"/>

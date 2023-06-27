@@ -31,7 +31,7 @@ const Bold = () => (
         image={boldthumb}
         link="/work/bold/bevy-design-system"
         title="Bevy Design System"
-        category="UX/UI"
+        category="UXUI"
         descriptor="Design Systems"
         year="2022–2023"
         >
@@ -39,19 +39,20 @@ const Bold = () => (
             Beginning in 2022, I led a redesign of Bold's design system, Bevy, in the context of Bold's rebrand.
         </small>
         </Card> 
+{/*         
         <Card 
         className='js-projects__card-container__card--type'
         image={boldthumb}
         link="/work/bold/build-with-bold"
         title="Empowering Developers to Build with Bold"
-        category="UX/UI"
+        category="UXUI"
         descriptor="Product Design"
         year="2021–2022"
         >
         <small>
             Simplifying the process for third-party developers to build, publish, and test integrations using Bold's APIs.
         </small>
-        </Card> 
+        </Card>  */}
 
       </div>
       <Background/>

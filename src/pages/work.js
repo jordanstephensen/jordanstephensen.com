@@ -15,7 +15,8 @@ import mspthumb from '../images/msp/msp-thumbnail.svg'
 import ovthumb from '../images/ovclub/ovclub-thumbnail.svg'
 import uxuithumb from '../images/uxui/uxui-thumbnail.svg'
 import healthiconsthumb from '../images/healthicons/healthicons-thumbnail.svg'
-// import logo from '../images/js-logo.svg'
+import threedthumb from '../images/3d-sketchbook/3d-sketchbook-thumbnail.png'
+import logo from '../images/js-logo.svg'
 
 
 const Work = ({  }) => {
@@ -33,16 +34,16 @@ const Work = ({  }) => {
             active={active === 'all'}
           />
           <Filter 
-            label="UX/UI"
+            label="UXUI"
             name='uxui'
             onClick={(e) => setActive('uxui')}
             active={active === 'uxui'}
           />
           <Filter 
             label="Iconography"
-            name='icons'
-            onClick={(e) => setActive('icons')}
-            active={active === 'icons'}
+            name='iconography'
+            onClick={(e) => setActive('iconography')}
+            active={active === 'iconography'}
           />
           <Filter 
             label="Branding"
@@ -51,10 +52,10 @@ const Work = ({  }) => {
             active={active === 'branding'}
           />
           <Filter 
-            label="Type Design"
-            name='type'
-            onClick={(e) => setActive('type')}
-            active={active === 'type'}
+            label="Typography"
+            name='typography'
+            onClick={(e) => setActive('typography')}
+            active={active === 'typography'}
           />
           <Filter 
             label="3D"
@@ -69,44 +70,60 @@ const Work = ({  }) => {
               'js-projects__card-container',
               {
                 'js-projects__card-container--uxui': active === 'uxui',
-                'js-projects__card-container--icons': active === 'icons',
+                'js-projects__card-container--iconography': active === 'iconography',
                 'js-projects__card-container--branding': active === 'branding',
-                'js-projects__card-container--type': active === 'type',
+                'js-projects__card-container--typography': active === 'typography',
                 'js-projects__card-container--3d': active === '3d',
               }
             ])
           }
         >
-          {/* <Card 
+          <Card 
             className='js-projects__card-container__card--uxui'
             image={boldthumb}
             link="/work/bold"
             title="Bold Commerce Case Studies"
-            category="UX/UI"
+            category="UXUI"
             descriptor="Product Design"
             year="2019–2023"
           >
             <small>
               Product design case studies from my time at Bold Commerce, a Winnipeg-based ecommerce startup.
             </small>
-          </Card> */}
+          </Card>
+
+          <Card 
+            className='js-projects__card-container__card--uxui'
+            image={logo}
+            link="https://github.com/jordanstephensen/jordanstephensen.com"
+            target="_blank"
+            title="Personal Website"
+            category="UXUI"
+            descriptor="Website"
+            year="Ongoing"
+          >
+            <small>
+              Source files for my personal website, built from the ground up in Gatsby and hosted on Netlify. Builds are triggered by every push to Main.
+            </small>
+          </Card>
+
           <Card 
             className='js-projects__card-container__card--uxui'
             image={uxuithumb}
             link="https://uxui.com"
             target="_blank"
             title="UXUI"
-            category="UX/UI"
+            category="UXUI"
             descriptor="Website"
             year="Ongoing"
           >
             <small>
-              An archive of mostly open-source UX/UI tools and resources.
+              An archive of mostly open-source UXUI tools and resources.
             </small>
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--icons'
+            className='js-projects__card-container__card--iconography'
             image={healthiconsthumb}
             link="/work/healthicons"
             title="Health Icons"
@@ -151,11 +168,11 @@ const Work = ({  }) => {
 
 
           <Card 
-            className='js-projects__card-container__card--type'
+            className='js-projects__card-container__card--typography'
             image={eternalthumb}
             link="/work/eternal"
             title="Eternal"
-            category="Type design"
+            category="Typography"
             descriptor="Display Mono"
             year="2020"
           >
@@ -165,11 +182,11 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--type'
+            className='js-projects__card-container__card--typography'
             image={keysthumb}
             link="/work/keys"
             title="Keys"
-            category="Type design"
+            category="Typography"
             descriptor="Stencil"
             year="2018"
           >
@@ -179,11 +196,11 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--type'
+            className='js-projects__card-container__card--typography'
             image={agourathumb}
             link="/work/agoura"
             title="Agoura"
-            category="Type design"
+            category="Typography"
             descriptor="Serif"
             year="Ongoing"
           >
@@ -192,9 +209,9 @@ const Work = ({  }) => {
             </small>
           </Card>
 
-          {/* <Card 
+          <Card 
             className='js-projects__card-container__card--3d'
-            image={agourathumb}
+            image={threedthumb}
             link="/work/3d-sketchbook"
             title="3D Sketchbook"
             category="3D"
@@ -206,7 +223,7 @@ const Work = ({  }) => {
             </small>
           </Card>
 
-          <Card 
+          {/* <Card 
             className='js-projects__card-container__card--3d'
             image={agourathumb}
             link="/work/bar-eclipse"

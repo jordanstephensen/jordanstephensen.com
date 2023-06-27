@@ -1,3 +1,4 @@
+@import '../../styles/_colors.scss';
 
 .js-card {
     max-width: 455px;
@@ -6,7 +7,7 @@
     background: rgba(255, 255, 255, 0.0);
     backdrop-filter: blur(5px);
     transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
-    box-shadow: inset 0 0 0 0.5px rgba(255,255,255, 0.2);
+    box-shadow: inset 0 0 0 0.5px $js-colors__alpha__light--3;
 
     &:hover {
         backdrop-filter: blur(10px);
@@ -32,9 +33,9 @@
             min-width: 175px;
             min-height: 250px;
             position: relative;
-            background: rgba(0,0,0, 0.75);
+            background: $js-colors__alpha__dark--1;
             backdrop-filter: blur(40px);
-            box-shadow: inset 0 0 0 0.5px rgba(255,255,255, 0.5);
+            box-shadow: inset 0 0 0 0.5px $js-colors__alpha__light--2;
             
             &--img {
                 max-width: 125px;
@@ -65,7 +66,32 @@
                     }
 
                     &--secondary {
-                        background-color: rgba(255,255,255,0.9);
+                        background-color: $js-colors__base__white;
+                    }
+
+                    &--UXUI {
+                        background-color: $js-colors__category--uxui;
+
+                    }
+
+                    &--Iconography {
+                        background-color: $js-colors__category--iconography;
+
+                    }
+
+                    &--Branding {
+                        background-color: $js-colors__category--branding;
+
+                    }
+
+                    &--Typography {
+                        background-color: $js-colors__category--typography;
+
+                    }
+
+                    &--3D {
+                        background-color: $js-colors__category--3d;
+
                     }
                 }
             }
@@ -122,7 +148,7 @@
 @media (max-width: 500px) {
 
     .js-card {
-        border: 0.25px solid white;
+        border: 0.25px solid $js-colors__base__white;
         max-width: 460px;
         width: 100%;
 
