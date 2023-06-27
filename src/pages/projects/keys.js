@@ -15,13 +15,13 @@ const Keys = () => (
   <Layout title="Keys Stencil">
     <SEO title="Keys Stencil Display Font" />
     <div className="contents__text-container">
-      <div className="contents__text-container--2col">
+      <div className="contents__text-container--column">
         <h3>Open-source<br/>
           SIL Open Font License 1.1<br/><br/>
           <Link href="https://github.com/jordanstephensen/keys-stencil" target="_blank"> Source Files</Link>
         </h3>
       </div>
-      <div className="contents__text-container--2col">
+      <div className="contents__text-container--column">
         <p>
           A blocky, geometric stencil display font. Looks best at large scale.<br/><br/>
           357 Characters.<br/><br/>

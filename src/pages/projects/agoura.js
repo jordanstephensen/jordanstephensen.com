@@ -9,11 +9,11 @@ const Agoura = () => (
   <Layout title="Agoura Display">
     <SEO title="Agoura Display Font" />
     <div className="contents__text-container">
-      <div className="contents__text-container--2col">
+      <div className="contents__text-container--column">
         <h3>Not yet released<br/>
         </h3>
       </div>
-      <div className="contents__text-container--2col">
+      <div className="contents__text-container--column">
         <p>
         A display serif inspired by the high-contrast type of the 60’s and 70’s. Work in progress.
         </p>

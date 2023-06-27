@@ -43,24 +43,6 @@ body {
   }
 }
 
-// glow {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;  
-//   animation: animatedGradient 18s infinite;
-//   width: 100vw;
-//   height: 100vh;
-// }
-
-// #innerglow {
-//   position: absolute;
-//   border-radius: 10vw;
-//   filter: blur(100px);
-//   width: 70vw;
-//   height: 70vh;
-//   animation: animatedGradient 10s infinite;
-// }
-
 @keyframes animatedGradient {
   0%{background:#f79533}
   12%{background:#f37055 }
@@ -102,8 +84,9 @@ body {
     display: flex;
     flex-flow: row nowrap;
     gap: 20px;
+    margin-bottom: 24px;
 
-    &--2col {
+    &--column {
       flex: 50%;
     }
   }
@@ -123,6 +106,9 @@ body {
   &__card-container {
     display: flex;
     flex-flow: row wrap;
+    gap: 16px;
+    min-width: 100%;
+    max-width: 960px;
 
     &--uxui {
       .js-projects__card-container__card--branding,
@@ -188,9 +174,6 @@ body {
 }
 
 
-
-
-
 .not-found {
   width: 100vw;
   height: 100vh;
@@ -243,7 +226,7 @@ h1 {
 h2 {
   font-family: Helvetica;
   font-weight: 300;
-  font-size: 4rem;
+  font-size: 64px;
   line-height: 3.7rem;
   letter-spacing: -0.05rem;
   margin-block-start: 0;
@@ -257,7 +240,7 @@ h3 {
   line-height: 130%;
   margin: 0;
   z-index: 1;
-  margin-bottom: 1em;
+  margin-bottom: 16px;
 }
 
 h4 {
@@ -267,8 +250,8 @@ h4 {
   line-height: 26px;
   box-shadow: none;
   padding: 0px;
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
+  margin-block-start: 8px;
+  margin-block-end: 8px;
 }
 
 h6 {
@@ -283,17 +266,16 @@ big {
   line-height: 150%;
   margin-bottom: 40px;
   margin-block-start: 0px;
-  margin-block-end: 40px;
+  margin-block-end: 36px;
 }
 
 
 p {
   font-family: Helvetica;
-  // font-family: 'Jetbrains Mono', monospace;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 150%;
   margin-block-start: 0px;
-  margin-block-end: 0px;
+  margin-block-end: 12px;
 }
 
 small {
@@ -301,7 +283,12 @@ small {
   font-size: 16px;
   line-height: 90%;
   margin-block-start: 0px;
-  margin-block-end: 0px;
+  margin-block-end: 8px;
+}
+
+li {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
 }
 
 ::selection {
@@ -311,7 +298,7 @@ small {
 
 
 
-/* Media Queries */
+/* Breakpoints */
 
 @media (max-width: 666px) {
   .contents {

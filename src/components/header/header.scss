@@ -11,6 +11,13 @@
   z-index: 100;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 
+  &--scrolled {
+    background: rgba(0,0,0, 0.5);
+    border-bottom: 1px solid white;
+    backdrop-filter: blur(10px);
+    top: 0;
+  }
+
   &-contents {
     max-width: 960px;
     width: 100vw;
@@ -62,12 +69,6 @@
   }
 }
 
-.HeaderScrolled {
-  background: rgba(0,0,0, 0.5);
-  border-bottom: 1px solid white;
-  backdrop-filter: blur(10px);
-  top: 0;
-}
 
 .peacelink {
   position: absolute;

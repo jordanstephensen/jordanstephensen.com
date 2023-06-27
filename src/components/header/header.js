@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import peace from '../../images/peace.svg'
+// import peace from '../../images/peace.svg'
 import mail from '../../images/mail-icon.svg'
 
 import './header.scss'
@@ -30,7 +30,7 @@ class Header extends React.Component {
   
   render() {
     return (
-    <div className={this.state.hasScrolled ? 'header HeaderScrolled' : 'header'}>
+    <div className={this.state.hasScrolled ? 'header header--scrolled' : 'header'}>
       {/* <h3>
         <Link className="peacelink" to="/☮">
           <img 

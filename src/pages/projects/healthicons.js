@@ -11,13 +11,13 @@ const Eternal = () => (
   <Layout title="Health Icons">
     <SEO title="Health Icons" />
     <div className="contents__text-container">
-      <div className="contents__text-container--2col">
+      <div className="contents__text-container--column">
         <h3>Open-source<br/>
         CC0 License<br/><br/>
           <Link href="https://healthicons.org/" target="_blank">Project Website</Link>
         </h3>
       </div>
-      <div className="contents__text-container--2col">
+      <div className="contents__text-container--column">
         <big>
         Health Icons is a volunteer effort, hosted by public health not-for-profit <Link href="https://resolvetosavelives.org/" target="_blank" >Resolve to Save Lives</Link>. These icons are available in the public domain for use in any type of project.
         <br/><br/></big>

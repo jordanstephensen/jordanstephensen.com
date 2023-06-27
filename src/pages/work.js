@@ -7,6 +7,7 @@ import Background from "../components/background/background"
 import Filter from "../components/filter/filter"
 import SEO from "../components/seo"
 
+import boldthumb from '../images/bold/bold-logo.svg'
 import eternalthumb from '../images/eternal/eternal-thumbnail.svg'
 import keysthumb from '../images/keys/keys-thumbnail.svg'
 import agourathumb from '../images/agoura/agoura-thumbnail.svg'
@@ -14,7 +15,7 @@ import mspthumb from '../images/msp/msp-thumbnail.svg'
 import ovthumb from '../images/ovclub/ovclub-thumbnail.svg'
 import uxuithumb from '../images/uxui/uxui-thumbnail.svg'
 import healthiconsthumb from '../images/healthicons/healthicons-thumbnail.svg'
-import logo from '../images/js-logo.svg'
+// import logo from '../images/js-logo.svg'
 
 
 const Work = ({  }) => {
@@ -69,20 +70,19 @@ const Work = ({  }) => {
             ])
           }
         >
-          <Card 
+          {/* <Card 
             className='js-projects__card-container__card--uxui'
-            image={logo}
-            link="https://github.com/jordanstephensen/jordanstephensen.com"
-            target="_blank"
-            title="Personal site"
+            image={boldthumb}
+            link="/projects/bold"
+            title="Bold Commerce Case Studies"
             category="UX/UI"
-            descriptor="Website"
-            year="Ongoing"
+            descriptor="Product Design"
+            year="2019–2023"
           >
             <small>
-              My personal website. Built from the ground up using Gatsby.
+              Product design case studies from my time at Bold Commerce, a Winnipeg-based ecommerce startup.
             </small>
-          </Card>
+          </Card> */}
 
           <Card 
             className='js-projects__card-container__card--uxui'

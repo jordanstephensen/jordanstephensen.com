@@ -19,7 +19,6 @@ const Layout = ({ title, children }) => {
               {children}
             </div>
             <Spacer size="xlarge" />
-            <Spacer size="xlarge" />
           </div>
           <Footer />
     </>

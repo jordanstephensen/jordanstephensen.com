@@ -19,6 +19,10 @@
     transition: none;
   }
 
+  p {
+    margin-block-end: 0px;
+  }
+
   &--active {
     box-shadow: inset 0px 0px 0px 40px yellow;
     color: black;

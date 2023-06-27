@@ -1,7 +1,6 @@
 import React from "react"
 
 import Layout from "../components/layout/layout"
-import Background from "../components/background/background"
 import SEO from "../components/seo"
 import Link from "../components/link/link"
 import me from '../images/JordanStephensen.png'
@@ -10,7 +9,7 @@ const About = () => (
   <Layout>
     <SEO title="About" />
     <div className="contents__text-container">
-      <div className="contents__text-container--2col">
+      <div className="contents__text-container--column">
         <h3>Hello, I'm Jordan.<br /></h3> 
         <p>
           I'm a designer in Toronto. Originally from Winnipeg, In 2013 I graduated from the University of Manitoba with a Bachelor of Fine Arts Honours. Areas of study while there included graphic design, illustration, and art history.<br /><br />
@@ -19,7 +18,7 @@ const About = () => (
           Outside of work, I dabble in type design and illustration, and am currently learning 3D design. I love running and yoga and spending time outdoors with my dog Mase.
         </p>  
       </div>
-      <div className="contents__text-container--2col">
+      <div className="contents__text-container--column">
         <img class="image--2col image--about-photo" src={me} alt="Myself" />
       </div>
     </div>
