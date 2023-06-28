@@ -7,15 +7,16 @@ import Background from "../components/background/background"
 import Filter from "../components/filter/filter"
 import SEO from "../components/seo"
 
-import boldthumb from '../images/bold/bold-logo.svg'
-import eternalthumb from '../images/eternal/eternal-thumbnail.svg'
+import boldthumb from '../images/bold/bold-thumbnail.png'
+import eternalthumb from '../images/eternal/eternal-thumbnail.png'
 import keysthumb from '../images/keys/keys-thumbnail.svg'
-import agourathumb from '../images/agoura/agoura-thumbnail.svg'
-import mspthumb from '../images/msp/msp-thumbnail.svg'
-import ovthumb from '../images/ovclub/ovclub-thumbnail.svg'
+import agourathumb from '../images/agoura/agoura-thumbnail.png'
+import mspthumb from '../images/msp/msp-thumbnail.png'
+import ovthumb from '../images/ovclub/ovclub-thumbnail-2.png'
 import uxuithumb from '../images/uxui/uxui-thumbnail.svg'
 import healthiconsthumb from '../images/healthicons/healthicons-thumbnail.svg'
 import threedthumb from '../images/3d-sketchbook/3d-sketchbook-thumbnail.png'
+import eclipsethumb from '../images/bar-eclipse/eclipse-thumbnail.png'
 import logo from '../images/js-logo.svg'
 
 
@@ -80,6 +81,21 @@ const Work = ({  }) => {
         >
           <Card 
             className='js-projects__card-container__card--uxui'
+            image={logo}
+            link="https://github.com/jordanstephensen/jordanstephensen.com"
+            target="_blank"
+            title="Personal Website"
+            category="UXUI"
+            descriptor="Website"
+            year="Ongoing"
+          >
+            <small>
+              Source files for my personal website (this one), built from the ground up in Gatsby and hosted on Netlify. Builds are triggered by every push to Main.
+            </small>
+          </Card>
+
+          {/* <Card 
+            className='js-projects__card-container__card--uxui'
             image={boldthumb}
             link="/work/bold"
             title="Bold Commerce Case Studies"
@@ -90,29 +106,14 @@ const Work = ({  }) => {
             <small>
               Product design case studies from my time at Bold Commerce, a Winnipeg-based ecommerce startup.
             </small>
-          </Card>
-
-          <Card 
-            className='js-projects__card-container__card--uxui'
-            image={logo}
-            link="https://github.com/jordanstephensen/jordanstephensen.com"
-            target="_blank"
-            title="Personal Website"
-            category="UXUI"
-            descriptor="Website"
-            year="Ongoing"
-          >
-            <small>
-              Source files for my personal website, built from the ground up in Gatsby and hosted on Netlify. Builds are triggered by every push to Main.
-            </small>
-          </Card>
+          </Card> */}
 
           <Card 
             className='js-projects__card-container__card--uxui'
             image={uxuithumb}
             link="https://uxui.com"
             target="_blank"
-            title="UXUI"
+            title="UXUI.com"
             category="UXUI"
             descriptor="Website"
             year="Ongoing"
@@ -132,7 +133,7 @@ const Work = ({  }) => {
             year="2021"
           >
             <small>
-              An open-source icon project I contributed to in 2021
+              Health Icons is an open source healthcare icon library. I contributed to the launch of this project in 2021.
             </small>
           </Card>
 
@@ -162,7 +163,7 @@ const Work = ({  }) => {
             year="2017"
           >
             <small>
-              OV Club is a nightclub located in Winnipeg, Manitoba.
+            OV Club is a nightclub located in Winnipeg, Manitoba. I worked with them in early 2017 to develop a brand and support material.
             </small>
           </Card>
 
@@ -223,9 +224,9 @@ const Work = ({  }) => {
             </small>
           </Card>
 
-          {/* <Card 
+          <Card 
             className='js-projects__card-container__card--3d'
-            image={agourathumb}
+            image={eclipsethumb}
             link="/work/bar-eclipse"
             title="Bar Eclipse"
             category="3D"
@@ -233,9 +234,9 @@ const Work = ({  }) => {
             year="2023"
           >
             <small>
-              An 80's dive bar environment exploration. Done in Blender.
+              An 80's dive bar environment exploration. Scene built in Blender. Environment elements designed in Figma, Photoshop, and Procreate.
             </small>
-          </Card> */}
+          </Card>
         </div>
       </div>
       <Background />

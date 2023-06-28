@@ -15,12 +15,12 @@ const Layout = ({ title, children }) => {
         <Header />
         <div className="contents">
           <PageTitle title={title}/>
-            <div className="contents__main"> 
-              {children}
-            </div>
-            <Spacer size="xlarge" />
+          <div className="contents__main"> 
+            {children}
           </div>
-          <Footer />
+          <Spacer size="xlarge" />
+        </div>
+        <Footer />
     </>
   )
 }

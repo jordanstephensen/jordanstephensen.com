@@ -14,14 +14,14 @@ import text from "../../images/keys/keys-text.svg"
 const Keys = () => (
   <Layout title="Keys Stencil">
     <SEO title="Keys Stencil Display Font" />
-    <div className="contents__text-container">
-      <div className="contents__text-container--column">
+    <div className="contents__container">
+      <div className="contents__container--column">
         <h3>Open-source<br/>
           SIL Open Font License 1.1<br/><br/>
           <Link href="https://github.com/jordanstephensen/keys-stencil" target="_blank"> Source Files</Link>
         </h3>
       </div>
-      <div className="contents__text-container--column">
+      <div className="contents__container--column">
         <p>
           A blocky, geometric stencil display font. Looks best at large scale.<br/><br/>
           357 Characters.<br/><br/>
@@ -29,12 +29,12 @@ const Keys = () => (
         </p>
       </div>
     </div>
-    <img className="image--body" src={alphabet} alt="Keys stencil font alphabet"/>
-    <img className="image--body" src={numbers} alt="Keys stencil font numbers"/>
-    <img className="image--body" src={symbols} alt="Keys stencil font symbols"/>
-    <img className="image--body" src={diacritics1} alt="Keys stencil font diacritics"/>
-    <img className="image--body" src={diacritics2} alt="Keys stencil font diacritics"/>
-    <img className="image--body" src={text} alt="Keys stencil font text samples"/>
+    <img className="contents__container" src={alphabet} alt="Keys stencil font alphabet"/>
+    <img className="contents__container" src={numbers} alt="Keys stencil font numbers"/>
+    <img className="contents__container" src={symbols} alt="Keys stencil font symbols"/>
+    <img className="contents__container" src={diacritics1} alt="Keys stencil font diacritics"/>
+    <img className="contents__container" src={diacritics2} alt="Keys stencil font diacritics"/>
+    <img className="contents__container" src={text} alt="Keys stencil font text samples"/>
     <h3>
       <Link href="https://github.com/jordanstephensen/keys-stencil" target="_blank"> Source Files</Link>
     </h3>

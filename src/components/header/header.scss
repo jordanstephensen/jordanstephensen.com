@@ -12,6 +12,7 @@
   top: 0;
   z-index: 100;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  color: $js-colors__text__light--primary;
 
   &--scrolled {
     background: $js-colors__alpha__dark--2;
@@ -31,6 +32,7 @@
 
     &__site-title {
       flex-grow: 1;
+      font-weight: 600;
 
       & a {
         box-shadow: none;

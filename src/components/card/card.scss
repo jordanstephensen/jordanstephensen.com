@@ -36,13 +36,15 @@
             background: $js-colors__alpha__dark--1;
             backdrop-filter: blur(40px);
             box-shadow: inset 0 0 0 0.5px $js-colors__alpha__light--2;
+            object-fit: contain;
             
             &--img {
-                max-width: 125px;
-                max-height: 125px;
+                max-width: 429px;
+                max-height: 248px;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+                object-fit: contain;
             }
         }
 

@@ -12,24 +12,24 @@ import symbols from "../../images/eternal/eternal-symbols.svg"
 const Eternal = () => (
   <Layout title="Eternal Mono">
     <SEO title="Eternal Monospace Display Font" />
-    <div className="contents__text-container">
-      <div className="contents__text-container--column">
+    <div className="contents__container">
+      <div className="contents__container--column">
         <h3>Open-source<br/>
           SIL Open Font License 1.1<br/><br/>
           <Link href="https://github.com/jordanstephensen/eternal-mono" target="_blank">Source Files</Link>
         </h3>
       </div>
-      <div className="contents__text-container--column">
+      <div className="contents__container--column">
         <p>
           Just a fun display mono.<br/><br/>
           Limited character set for now. Alphabet, numbers, some symbols. May add to this in the future.<br/><br/>
         </p>
       </div>
     </div>
-    <img className="image--body" src={cover} alt="Eternal display font"/>
-    <img className="image--body" src={alphabet} alt="Eternal display font alphabet"/>
-    <img className="image--body" src={numbers} alt="Eternal display font numbers"/>
-    <img className="image--body" src={symbols} alt="Eternal display font symbols"/>
+    <img className="contents__container" src={cover} alt="Eternal display font"/>
+    <img className="contents__container" src={alphabet} alt="Eternal display font alphabet"/>
+    <img className="contents__container" src={numbers} alt="Eternal display font numbers"/>
+    <img className="contents__container" src={symbols} alt="Eternal display font symbols"/>
     <h3>
       <Link href="https://github.com/jordanstephensen/eternal-mono" target="_blank">Source Files</Link>
     </h3>

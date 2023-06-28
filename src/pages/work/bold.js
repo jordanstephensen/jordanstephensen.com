@@ -12,13 +12,13 @@ import boldthumb from '../../images/bold/bold-logo.svg'
 const Bold = () => (
   <Layout title="Bold Commerce">
     <SEO title="Bold Commerce Case Studies" />
-    <div className="contents__text-container">
-      <div className="contents__text-container--column">
+    <div className="contents__container">
+      <div className="contents__container--column">
         <h3>Bold Commerce is a Winnipeg-based ecommerce company focused on providing merchants of all sizes with flexible and powerful checkout solutions.<br/></h3>
       </div>
-      <div className="contents__text-container--column">
+      <div className="contents__container--column">
         <p>
-        I’ve spent the last four years at Bold Commerce specializing in ecommerce software design. During my time there, I saw a number of features through from conceptualization to launch in several Bold products. This included leading user research initiatives, usability testing, UI design and handoff, and front-end code contributions. I also led a redesign of our design system, implemented theming in our design system, overhauled our icon library twice, and took part in Bold's mentorship program as a mentor.
+        I’ve spent the last four years at Bold Commerce specializing in ecommerce software design. During my time there, I saw a number of features through from conceptualization to launch in several Bold products. This included leading user research initiatives, usability testing, UI design and handoff, and front-end code contributions. I also led a redesign of our design system, implemented theming in the system, overhauled our icon library twice, and took part in Bold's mentorship program as a mentor.
         </p>
         <p>
         Below are two case studies from my time at Bold.
