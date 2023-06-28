@@ -5,7 +5,7 @@ import Background from "../../components/background/background"
 import SEO from "../../components/seo"
 import Card from "../../components/card/card"
 
-import boldthumb from '../../images/bold/bold-logo.svg'
+import boldthumb from '../../images/bold/bold-thumbnail.png'
 
 const Bold = () => (
   <Layout title="Bold Commerce">
