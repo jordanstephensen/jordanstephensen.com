@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default",
   "private": true,
   "description": "What's up",
-  "version": "0.1.0",
+  "version": "2.5.0",
   "author": "Jordan Stephensen",
   "dependencies": {
     "classnames": "^2.3.2",
