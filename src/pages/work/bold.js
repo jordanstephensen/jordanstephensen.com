@@ -37,7 +37,7 @@ const Bold = () => (
             Beginning in 2022, I led a redesign of Bold's design system, Bevy, in the context of Bold's rebrand.
         </small>
         </Card> 
-{/*         
+        
         <Card 
         className='js-projects__card-container__card--type'
         image={boldthumb}
@@ -50,7 +50,7 @@ const Bold = () => (
         <small>
             Simplifying the process for third-party developers to build, publish, and test integrations using Bold's APIs.
         </small>
-        </Card>  */}
+        </Card> 
 
       </div>
       <Background/>
