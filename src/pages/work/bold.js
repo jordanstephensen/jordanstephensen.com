@@ -7,8 +7,6 @@ import Card from "../../components/card/card"
 
 import boldthumb from '../../images/bold/bold-logo.svg'
 
-
-
 const Bold = () => (
   <Layout title="Bold Commerce">
     <SEO title="Bold Commerce Case Studies" />
