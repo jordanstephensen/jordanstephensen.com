@@ -18,6 +18,7 @@ import healthiconsthumb from '../images/health-icons/healthicons-thumbnail.svg'
 import gestureiconsthumb from '../images/gesture-icons/gesture-thumbnail.svg'
 import threedthumb from '../images/3d-sketchbook/3d-sketchbook-thumbnail.png'
 import eclipsethumb from '../images/bar-eclipse/eclipse-thumbnail.png'
+import typethumb from '../images/type-sketchbook/type-thumbnail.svg'
 import logo from '../images/js-logo.svg'
 
 
@@ -182,6 +183,19 @@ const Work = ({  }) => {
             </small>
           </Card>
 
+          <Card 
+            className='js-projects__card-container__card--typography'
+            image={typethumb}
+            link="/work/type-sketchbook"
+            title="Type Sketchbook"
+            category="Typography"
+            descriptor="Sketchbook"
+            year="Ongoing"
+          >
+            <small>
+              Various custom type explorations from over the years. Experimental, unrefined.
+            </small>
+          </Card>
 
           <Card 
             className='js-projects__card-container__card--typography'
