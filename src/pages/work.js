@@ -14,7 +14,8 @@ import agourathumb from '../images/agoura/agoura-thumbnail.png'
 import mspthumb from '../images/msp/msp-thumbnail.png'
 import ovthumb from '../images/ovclub/ovclub-thumbnail-2.png'
 import uxuithumb from '../images/uxui/uxui-thumbnail.svg'
-import healthiconsthumb from '../images/healthicons/healthicons-thumbnail.svg'
+import healthiconsthumb from '../images/health-icons/healthicons-thumbnail.svg'
+import gestureiconsthumb from '../images/gesture-icons/gesture-thumbnail.svg'
 import threedthumb from '../images/3d-sketchbook/3d-sketchbook-thumbnail.png'
 import eclipsethumb from '../images/bar-eclipse/eclipse-thumbnail.png'
 import logo from '../images/js-logo.svg'
@@ -126,7 +127,7 @@ const Work = ({  }) => {
           <Card 
             className='js-projects__card-container__card--iconography'
             image={healthiconsthumb}
-            link="/work/healthicons"
+            link="/work/health-icons"
             title="Health Icons"
             category="Iconography"
             descriptor="Open-Source"
@@ -134,6 +135,20 @@ const Work = ({  }) => {
           >
             <small>
               Health Icons is an open source healthcare icon library. I contributed to the launch of this project in 2021.
+            </small>
+          </Card>
+
+          <Card 
+            className='js-projects__card-container__card--iconography'
+            image={gestureiconsthumb}
+            link="/work/gesture-icons"
+            title="Gesture Icons"
+            category="Iconography"
+            descriptor="Open-Source"
+            year="2020"
+          >
+            <small>
+              A set of open source 48px gesture icons, published to Figma Community in 2020. Intended as a UX design resource to allow for visual interaction annotation in user flows.
             </small>
           </Card>
 

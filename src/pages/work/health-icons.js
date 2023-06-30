@@ -4,17 +4,17 @@ import Layout from "../../components/layout/layout"
 import SEO from "../../components/seo"
 import Link from "../../components/link/link"
 
-import lineicons from "../../images/healthicons/healthicons-grid-line.svg"
-import solidicons from "../../images/healthicons/healthicons-grid-solid.svg"
-import group from "../../images/healthicons/healthicons-group.jpg"
-import figma from "../../images/healthicons/healthicons-figma.png"
-import design from "../../images/healthicons/healthicons-design.png"
-import guidelines from "../../images/healthicons/healthicons-guidelines.png"
-import web from "../../images/healthicons/healthicons-web.png"
-import use from "../../images/healthicons/healthicons-use.png"
-import conference from "../../images/healthicons/healthicons-conference.png"
+import lineicons from "../../images/health-icons/healthicons-grid-line.svg"
+import solidicons from "../../images/health-icons/healthicons-grid-solid.svg"
+import group from "../../images/health-icons/healthicons-group.jpg"
+import figma from "../../images/health-icons/healthicons-figma.png"
+import design from "../../images/health-icons/healthicons-design.png"
+import guidelines from "../../images/health-icons/healthicons-guidelines.png"
+import web from "../../images/health-icons/healthicons-web.png"
+import use from "../../images/health-icons/healthicons-use.png"
+import conference from "../../images/health-icons/healthicons-conference.png"
 
-const Eternal = () => (
+const HealthIcons = () => (
   <Layout title="Health Icons">
     <SEO title="Health Icons" />
     <div className="contents__container">
@@ -67,4 +67,4 @@ const Eternal = () => (
   </Layout>
 )
 
-export default Eternal
+export default HealthIcons
