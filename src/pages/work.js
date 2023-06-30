@@ -94,7 +94,7 @@ const Work = ({  }) => {
             </small>
           </Card>
 
-          {/* <Card 
+          <Card 
             className='js-projects__card-container__card--uxui'
             image={boldthumb}
             link="/work/bold"
@@ -106,7 +106,7 @@ const Work = ({  }) => {
             <small>
               Product design case studies from my time at Bold Commerce, a Winnipeg-based ecommerce startup.
             </small>
-          </Card> */}
+          </Card>
 
           <Card 
             className='js-projects__card-container__card--uxui'

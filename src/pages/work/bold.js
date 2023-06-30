@@ -4,6 +4,7 @@ import Layout from "../../components/layout/layout"
 import Background from "../../components/background/background"
 import SEO from "../../components/seo"
 import Card from "../../components/card/card"
+import mail from '../../images/mail-icon.svg'
 
 import boldthumb from '../../images/bold/bold-thumbnail.png'
 
@@ -18,12 +19,14 @@ const Bold = () => (
         <p>
         I’ve spent the last four years at Bold Commerce specializing in ecommerce software design. During my time there, I saw a number of features through from conceptualization to launch in several Bold products. This included leading user research initiatives, usability testing, UI design and handoff, and front-end code contributions. I also led a redesign of our design system, implemented theming in the system, overhauled our icon library twice, and took part in Bold's mentorship program as a mentor.
         </p>
-        <p>
+        <big>Case studies coming soon — until then, feel free to <a href="mailto:jordanstephensen@gmail.com" target="_blank" rel="noreferrer">reach out<img className="icon-mail link-icon" src={mail} alt="mail icon"/></a> for product design work samples.</big>
+        {/* <p>
         Below are two case studies from my time at Bold.
-        </p>
+        </p> */}
       </div>
     </div>
-    <div className="js-projects__card-container">
+    
+    {/* <div className="js-projects__card-container">
       <Card 
         className='js-projects__card-container__card--type'
         image={boldthumb}
@@ -52,8 +55,8 @@ const Bold = () => (
         </small>
         </Card> 
 
-      </div>
-      <Background/>
+      </div> */}
+      {/* <Background/> */}
   </Layout>
 )
 
