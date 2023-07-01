@@ -223,31 +223,44 @@ body {
 .not-found {
   width: 100vw;
   height: 100vh;
-  background: #B20000;
-  padding-top: 6rem;
+  background: $js-colors__base__blue;
   color: $js-colors__base__white;
+  display: flex;
+  align-items: center;
 
   &__content {
     display: flex;
     flex-flow: column nowrap;
     flex: 1 0 auto;
-    max-width: 900px;
     align-items: center;
+    vertical-align: middle;
     margin: 0 auto;
-    margin-bottom: 10rem;
     text-align: center;
-  }
+    gap: 24px;
 
-  & a {
-    color: $js-colors__base__white;
+    &__logo {
+      box-shadow: none;
+    }
 
-    &:hover {
-      text-decoration: none;
+    &__text {
+      a {
+        &:hover {
+          color: $js-colors__base__blue;
+          box-shadow: inset 0px 0px 0px 40px $js-colors__base__white;
+          transition: ease-out 0.2s;
+        }
+        
+        &x:active {
+          color: $js-colors__base__white;
+          box-shadow: inset 0px 0px 0px 1px $js-colors__base__white;
+          transition: none;
+        }
+      }
     }
   }
 }
 
-
+ 
 /* Breakpoints */
 
 @media (max-width: 666px) {

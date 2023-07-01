@@ -1,6 +1,6 @@
 import React from "react"
 
-import icon from "../images/peace.svg"
+import icon from "../images/js-logo.svg"
 // import home from "../images/home.svg"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
@@ -9,19 +9,18 @@ const NotFoundPage = () => (
   <>
   <div className="not-found" >
   <SEO title="404: Not Found" />
-      <div className="about__content">
-          <Link to="/">
-              <img className="header__logo" src={icon} alt="UXUI"/>
+      <div className="not-found__content">
+          <Link className="not-found__content__logo" to="/">
+              <img  src={icon} alt="Home"/>
           </Link>
-          <h4>
-            There’s nothing here.
-          </h4>
-          <Link to="/">
-              <h5>Go back home</h5>
-          </Link>
-          {/* <Link to="/">
-              <img className="about__logo-js" src={home} alt="Jordan Stephensen"/>
-          </Link> */}
+          <div className="not-found__content__text">
+            <p>There’s nothing here.</p>
+            <p>
+                <Link to="/">
+                    Go back home
+                </Link>
+            </p>
+        </div>
       </div>
   </div>
 </>
