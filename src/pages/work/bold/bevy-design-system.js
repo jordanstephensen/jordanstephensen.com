@@ -20,15 +20,15 @@ const Agoura = () => (
       <h3>Bevy is Bold's design system, a closed-source React library. Beginning in 2022, I led a redesign of Bevy in the context of Bold's rebrand.<br/></h3>
     </div>
     <div className="contents__container">
-      <div className="contents__container--column">
+      <div className="contents__container-column--2">
         <h4>Timeline</h4>
         <p>June 2022—April 2023<br/></p>
       </div>
-      <div className="contents__container--column">
+      <div className="contents__container-column--2">
         <h4>My role</h4>
         <p>I led this project through several phases, including design, development, documentation, and implementation of the system in Bold’s three main Checkout Suite apps.<br/></p>
       </div>
-      <div className="contents__container--column">
+      <div className="contents__container-column--2">
         <h4>Other contributors</h4>
         <p>Bold’s entire product design team participated in a workshop around the system redesign at the project’s inception. They also aided with continued component design following the workshop.</p>
         <p>A developer at Bold, David, assisted with the development of the system, specifically refactoring the system to TypeScript. He also helped support the rollout and implementation of the system.<br/></p>
@@ -41,8 +41,8 @@ const Agoura = () => (
       <p>Bevy was a React library born out of necessity in Bold’s early start-up days as they strove to create a shared design language across the various apps begin built. Bevy did the job but was far from perfect — lacking the flexibility needed to build the more complex solutions now present in Bold’s suite of apps. It was also beginning to feel pretty dated and out of touch with current design trends.</p>
     </div>
     <div className="contents__container">
-      <img className="contents__container--column" src={brandold} alt="Bold's old brand"/>
-      <img className="contents__container--column" src={brandnew} alt="Bold's rebrand"/>
+      <img className="contents__container-column--2" src={brandold} alt="Bold's old brand"/>
+      <img className="contents__container-column--2" src={brandnew} alt="Bold's rebrand"/>
     </div>
     <small className="text--caption">Note, I had no involvement in Bold’s original brand design, or the rebrand. The rebrand was done by an external agency, <Link href="https://matchstic.com/work/bold" target="_blank">Matchstic</Link>. Brand assets provided here are only for context.
 I did however work on the iconography, illustrations, and design system components shown here.</small>
@@ -60,8 +60,8 @@ I did however work on the iconography, illustrations, and design system componen
       </p>
     </div>
     <div className="contents__container">
-      <img className="contents__container--column" src={workshops1} alt="Health Icons in use on Alloy Health's website"/>
-      <img className="contents__container--column" src={workshops2} alt="Health Icons in use in a presentation at the DHIS2 Conference"/>
+      <img className="contents__container-column--2" src={workshops1} alt="Health Icons in use on Alloy Health's website"/>
+      <img className="contents__container-column--2" src={workshops2} alt="Health Icons in use in a presentation at the DHIS2 Conference"/>
     </div>
     <small className="text--caption">Photos from our design team's workshops, July 2022</small>
     <div className="contents__container--text">

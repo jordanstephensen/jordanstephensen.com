@@ -19,6 +19,7 @@ import gestureiconsthumb from '../images/gesture-icons/gesture-thumbnail.svg'
 import threedthumb from '../images/3d-sketchbook/3d-sketchbook-thumbnail.png'
 import eclipsethumb from '../images/bar-eclipse/eclipse-thumbnail.png'
 import typethumb from '../images/type-sketchbook/type-thumbnail.svg'
+import logothumb from '../images/logo-portfolio/logo-thumbnail.svg'
 import logo from '../images/js-logo.svg'
 
 
@@ -121,7 +122,7 @@ const Work = ({  }) => {
             year="Ongoing"
           >
             <small>
-              An archive of mostly open-source UXUI tools and resources.
+              An archive of mostly open-source UXUI tools and resources. Add to this occasionally, it's in need of an overhaul.
             </small>
           </Card>
 
@@ -150,6 +151,20 @@ const Work = ({  }) => {
           >
             <small>
               A set of open source 48px gesture icons, published to Figma Community in 2020. Intended as a UX design resource to allow for visual interaction annotation in user flows.
+            </small>
+          </Card>
+
+          <Card 
+            className='js-projects__card-container__card--branding'
+            image={logothumb}
+            link="/work/logo-portfolio"
+            title="Logo Portfolio"
+            category="Branding"
+            descriptor="Logo & Identity"
+            year="Ongoing"
+          >
+            <small>
+              A selection of logos 2015–present.
             </small>
           </Card>
 

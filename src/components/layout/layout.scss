@@ -100,12 +100,20 @@ body {
       flex-flow: column nowrap;
     }
 
-    &--column {
-      flex: 50%;
-      max-width: 470px;
+    &-column {
       width: 100%;
       height: auto;
-      object-fit: contain;  
+      object-fit: contain;
+
+      &--2 {
+        max-width: 470px;
+        flex: 50%;
+      }
+
+      &--3 {
+        max-width: 310px;
+        flex: 33%;
+      }
     }
   }
 }

@@ -11,10 +11,10 @@ const ThreeDSketchbook = () => (
   <Layout title="3D Sketchbook">
     <SEO title="3D Sketchbook" />
     <div className="contents__container">
-      <div className="contents__container--column">
+      <div className="contents__container-column--2">
         <h3>2021–Present<br/></h3>
       </div>
-      <div className="contents__container--column">
+      <div className="contents__container-column--2">
         <p>A selection of personal work. Relatively undeveloped sketches mostly done in Nomad Sculpt. Procreate and Figma also used for some elements.</p>
       </div>
     </div>
