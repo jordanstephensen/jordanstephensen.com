@@ -224,6 +224,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: $js-colors__base__blue;
+  // animation: animatedGradient 10s infinite;
   color: $js-colors__base__white;
   display: flex;
   align-items: center;
@@ -240,6 +241,10 @@ body {
 
     &__logo {
       box-shadow: none;
+
+      img {
+        height: 64px;
+      }
     }
 
     &__text {

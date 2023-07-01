@@ -1,7 +1,6 @@
 import React from "react"
 
-import icon from "../images/js-logo.svg"
-// import home from "../images/home.svg"
+import logo from "../images/js-pixel-logo.svg"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 
@@ -11,7 +10,7 @@ const NotFoundPage = () => (
   <SEO title="404: Not Found" />
       <div className="not-found__content">
           <Link className="not-found__content__logo" to="/">
-              <img  src={icon} alt="Home"/>
+              <img src={logo} alt="Home"/>
           </Link>
           <div className="not-found__content__text">
             <p>There’s nothing here.</p>
