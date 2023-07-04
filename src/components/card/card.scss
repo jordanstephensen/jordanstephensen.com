@@ -142,3 +142,13 @@
         }
     }
 }
+
+/* Breakpoints */
+
+@media (max-width: 666px) {
+    .js-card {
+        &__corners {
+            display: none;
+        }
+    }
+}
