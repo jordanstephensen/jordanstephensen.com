@@ -33,29 +33,21 @@ const LogoPortfolio = () => (
       </div>
     </div>
     <div className="contents__container" >
-        <img className="contents__container-column--3" src={crabapple} alt="Typography exploration"/>
-        <img className="contents__container-column--3" src={charles} alt="Typography exploration"/>
-        <img className="contents__container-column--3" src={mitchell} alt="Typography exploration"/>
-    </div>
-    <div className="contents__container" >
-        <img className="contents__container-column--3" src={landf} alt="Typography exploration"/>
-        <img className="contents__container-column--3" src={ov} alt="Typography exploration"/>
-        <img className="contents__container-column--3" src={albert} alt="Typography exploration"/>
-    </div>
-    <div className="contents__container" >
-        <img className="contents__container-column--3" src={ysl} alt="Typography exploration"/>
-        <img className="contents__container-column--3" src={endive} alt="Typography exploration"/>
-        <img className="contents__container-column--3" src={truflo} alt="Typography exploration"/>
-    </div>
-    <div className="contents__container" >
-        <img className="contents__container-column--3" src={soi} alt="Typography exploration"/>
-        <img className="contents__container-column--3" src={msp} alt="Typography exploration"/>
-        <img className="contents__container-column--3" src={wayhii} alt="Typography exploration"/>
-    </div>
-    <div className="contents__container" >
-        <img className="contents__container-column--3" src={nomad} alt="Typography exploration"/>
-        <img className="contents__container-column--3" src={sneath} alt="Typography exploration"/>
-        <img className="contents__container-column--3" src={sv} alt="Typography exploration"/>
+        <img className="contents__container-column--3" src={crabapple} alt="The Crabapple Tree logo"/>
+        <img className="contents__container-column--3" src={charles} alt="The Charles Condo logo"/>
+        <img className="contents__container-column--3" src={mitchell} alt="The Mitchell Block logo"/>
+        <img className="contents__container-column--3" src={landf} alt="Lost and Found logo"/>
+        <img className="contents__container-column--3" src={ov} alt="OV Club logo"/>
+        <img className="contents__container-column--3" src={albert} alt="Albert Street Cocktail Company logo"/>
+        <img className="contents__container-column--3" src={ysl} alt="Y$L logo"/>
+        <img className="contents__container-column--3" src={endive} alt="Endive logo"/>
+        <img className="contents__container-column--3" src={truflo} alt="TruFlo logo"/>
+        <img className="contents__container-column--3" src={soi} alt="So Over It logo"/>
+        <img className="contents__container-column--3" src={msp} alt="MSP logo"/>
+        <img className="contents__container-column--3" src={wayhii} alt="WayHii logo"/>
+        <img className="contents__container-column--3" src={nomad} alt="Nomad logo"/>
+        <img className="contents__container-column--3" src={sneath} alt="Sneath logo"/>
+        <img className="contents__container-column--3" src={sv} alt="SV logo"/>
     </div>
   </Layout>
 )

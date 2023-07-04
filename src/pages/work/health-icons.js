@@ -38,7 +38,7 @@ const HealthIcons = () => (
     <img className="contents__container" src={lineicons} alt="Line variation of Health Icons"/>
     <img className="contents__container" src={solidicons} alt="Solid variation of Health Icons"/>
     <small className="text--caption">A selection of icons I contributed to the project</small>
-    <div className="contents__container--text">
+    <div className="contents__container--vertical">
       <h3>The Team</h3>
       <p>The team behind Health Icons has grown, but in the early days of the project, there were around 12–15 of us working on the first iteration of the library. We were spread across the world, and worked asynchronously, using Figma to collaboratively design the library, and Slack for communication.</p>
       <p>The first iteration of the library went through several auditing and refinement phases as we worked to define a visual language for the icons to share.</p>
@@ -49,7 +49,7 @@ const HealthIcons = () => (
     <small className="text--caption">Working asynchronously in Figma required a structured approach when taking icons through several phases including design exploration, review, refinement, and export preperation</small>
     <img className="contents__container" src={guidelines} alt="Defining icon guidelines in Health Icons' Figma file"/>
     <small className="text--caption">Working to define guidelines for icon design and project contribution</small>
-    <div className="contents__container--text">
+    <div className="contents__container--vertical">
       <h3>Project Launch</h3>
       <p>In June 2021, we launched the library with 630 icons on <Link href="https://www.producthunt.com/products/health-icons" target="_blank">ProductHunt</Link> where it recieved 291 upvotes.</p>
       <p>The same week, <Link href="https://www.fastcompany.com/90647428/these-icons-create-a-universal-language-for-healthcare-from-blood-type-to-sex-work" target="_blank">Fast Company wrote about the project</Link> and the team's goals.</p>
