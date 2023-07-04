@@ -20,7 +20,7 @@ import threedthumb from '../images/3d-sketchbook/3d-sketchbook-thumbnail.png'
 import eclipsethumb from '../images/bar-eclipse/eclipse-thumbnail.png'
 import typethumb from '../images/type-sketchbook/type-thumbnail.svg'
 import logothumb from '../images/logo-portfolio/logo-thumbnail.svg'
-import logo from '../images/js-logo.svg'
+import jsthumb from '../images/personal-site/js-thumbnail.svg'
 
 
 const Work = ({  }) => {
@@ -84,7 +84,7 @@ const Work = ({  }) => {
         >
           <Card 
             className='js-projects__card-container__card--uxui'
-            image={logo}
+            image={jsthumb}
             link="https://github.com/jordanstephensen/jordanstephensen.com"
             target="_blank"
             title="Personal Website"
