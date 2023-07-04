@@ -8,7 +8,7 @@ import flowers from "../../images/3d-sketchbook/3d-flowers.png"
 import abstract from "../../images/3d-sketchbook/3d-abstract.png"
 
 const ThreeDSketchbook = () => (
-  <Layout title="3D Sketchbook">
+  <Layout title="3D Sketch&shy;book">
     <SEO title="3D Sketchbook" />
     <div className="contents__container">
       <div className="contents__container-column--2">

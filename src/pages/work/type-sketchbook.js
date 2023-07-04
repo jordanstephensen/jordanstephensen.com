@@ -17,7 +17,7 @@ import singularity from "../../images/type-sketchbook/type-singularity.png"
 import traits from "../../images/type-sketchbook/type-traits.png"
 
 const TypeSketchbook = () => (
-  <Layout title="Type Sketchbook">
+  <Layout title="Type Sketch&shy;book">
     <SEO title="Type Sketchbook" />
     <div className="contents__container">
       <div className="contents__container-column--2">

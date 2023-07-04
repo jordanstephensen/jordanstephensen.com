@@ -104,12 +104,14 @@ body {
 
       &--2 {
         max-width: 470px;
-        flex: 50%;
+        // flex: 50%;
+        flex: 1 1 350px;
       }
 
       &--3 {
-        max-width: 310px;
-        flex: 33%;
+        max-width: 300px;
+        flex: 1 1 260px;
+        // flex: 33%;
       }
     }
   }
