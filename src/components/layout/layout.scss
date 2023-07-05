@@ -4,6 +4,7 @@
 
 @import '../../styles/_colors.scss';
 @import '../../styles/_typography.scss';
+@import '../../styles/_helpers.scss';
 
 html, body {
   height: 100%;
@@ -12,9 +13,6 @@ html, body {
 
 body {
   background: $js-colors__base__black;
-  // background: radial-gradient(236.43% 109.74% at 50% 118.89%,#B9C5BC 5%,#4088B4 25%,#003869 50%,#000F28 75%,#000 95%);
-  // background: radial-gradient(236.43% 109.74% at 50% 118.89%,#B9C5BC 5%,#4088B4 15%,#003869 30%,#000F28 45%,#000 65%);
-  // background: radial-gradient(236.43% 109.74% at 50% 118.89%,#1B74AB 5%,#003869 33%,#000F28 66%,#000 95%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0px;

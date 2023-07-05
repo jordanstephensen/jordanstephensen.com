@@ -15,7 +15,7 @@ const Bold = () => (
     <SEO title="Product Design Portfolio" />
     <div className="contents__container">
       <div className="contents__container-column--2">
-        <h3>Bold Commerce is a Winnipeg-based ecommerce company focused on providing merchants of all sizes with flexible and powerful checkout solutions.<br/></h3>
+        <big className="h-text--intro">Bold Commerce is a Winnipeg-based ecommerce company focused on providing merchants of all sizes with flexible and powerful checkout solutions.</big>
       </div>
       <div className="contents__container-column--2">
         <p>

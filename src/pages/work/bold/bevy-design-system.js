@@ -17,7 +17,7 @@ const Agoura = () => (
     <SEO title="Bevy Design System" />
     <img className="contents__container" src={bevycover} alt="An overview of Bevy's component library"/>
     <div className="contents__container">
-      <h3>Bevy is Bold's design system, a closed-source React library. Beginning in 2022, I led a redesign of Bevy in the context of Bold's rebrand.<br/></h3>
+      <big className="h-text--intro">Bevy is Bold's design system, a closed-source React library. Beginning in 2022, I led a redesign of Bevy in the context of Bold's rebrand.<br/></big>
     </div>
     <div className="contents__container">
       <div className="contents__container-column--2">

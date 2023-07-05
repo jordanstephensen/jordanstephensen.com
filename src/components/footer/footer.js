@@ -7,12 +7,12 @@ import arena from '../../images/social/arena.svg'
 import './footer.scss'
 
 const Footer = ({ children }) => (
-  <div className="js-footer">
-    <div className="js-footer-contents">
-      <h4 className="js-footer-contents__copyright">
+  <div className="footer">
+    <div className="footer__contents">
+      <h4 className="footer__copyright">
         © {new Date().getFullYear()}
       </h4>
-      <div className="js-footer-contents__links">
+      <div className="footer__links">
         <a href="https://www.twitter.com/jwstephensen" target="_blank" rel="noreferrer">
           <img 
             src={twitter} 

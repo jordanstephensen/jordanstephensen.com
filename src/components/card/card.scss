@@ -1,6 +1,6 @@
 @import '../../styles/_colors.scss';
 
-.js-card {
+.card {
     flex: 1 1 350px;
     width: 100%;
     max-width: 452px;
@@ -17,91 +17,97 @@
         border-radius: 16px;
         transition: .2s cubic-bezier(.2,.8,.2,1);
 
-        .js-card__corners {
+        .card__corners {
             display: none;
         }
     }
 
-    &-contents {
+    &__contents {
         display: flex;
         flex-flow: column nowrap;
-        margin: 12px;
+        padding: 12px;
         gap: 12px;
+        box-sizing: border-box;
+        height: 100%;
+    }
 
-        &__image-container {
-            display: flex;
-            align-items: center;
-            min-width: 175px;
-            min-height: 250px;
-            position: relative;
-            background: $js-colors__alpha__dark--1;
-            backdrop-filter: blur(40px);
-            box-shadow: inset 0 0 0 0.5px $js-colors__alpha__light--2;
-            
-            &--img {
-                width: 98%;
-                max-height: 248px;
-                display: block;
-                margin: 0px auto;
-                object-fit: contain;
-            }
+    &__image-container {
+        display: flex;
+        align-items: center;
+        min-width: 175px;
+        min-height: 250px;
+        position: relative;
+        background: $js-colors__alpha__dark--1;
+        backdrop-filter: blur(40px);
+        box-shadow: inset 0 0 0 0.5px $js-colors__alpha__light--2;
+        
+        &-img {
+            width: 98%;
+            max-height: 248px;
+            display: block;
+            margin: 0px auto;
+            object-fit: contain;
+        }
+    }
+
+    &__text-container {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        gap: 4px;
+        max-height: 175px;
+        margin-bottom: 4px;
+        box-sizing: border-box;
+        height: 100%;
+    }
+
+    &__year-container {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+
+    &__pill {
+        &--primary {
+            background-color: yellow;
         }
 
-        &__text-container {
-            display: flex;
-            flex-flow: column nowrap;
-            align-items: flex-start;
-            gap: 4px;
-            max-height: 175px;
-            margin-bottom: 4px;
-
-            &__year-container {
-                display: flex;
-                flex-flow: row nowrap;
-                align-items: center;
-                gap: 8px;
-
-                &__pill {
-                    &--primary {
-                        background-color: yellow;
-                    }
-
-                    &--secondary {
-                        background-color: $js-colors__base__white;
-                    }
-
-                    &--UXUI {
-                        background-color: $js-colors__category--uxui;
-
-                    }
-
-                    &--Iconography {
-                        background-color: $js-colors__category--iconography;
-
-                    }
-
-                    &--Branding {
-                        background-color: $js-colors__category--branding;
-
-                    }
-
-                    &--Typography {
-                        background-color: $js-colors__category--typography;
-
-                    }
-
-                    &--3D {
-                        background-color: $js-colors__category--3d;
-
-                    }
-                }
-            }
+        &--secondary {
+            background-color: $js-colors__base__white;
         }
 
-        &__children {
-            margin-bottom: 8px;
-            flex-grow: 2;
+        &--UXUI {
+            background-color: $js-colors__category--uxui;
+
         }
+
+        &--Iconography {
+            background-color: $js-colors__category--iconography;
+
+        }
+
+        &--Branding {
+            background-color: $js-colors__category--branding;
+
+        }
+
+        &--Typography {
+            background-color: $js-colors__category--typography;
+
+        }
+
+        &--3D {
+            background-color: $js-colors__category--3d;
+
+        }
+    }
+
+
+    &__children {
+        margin-bottom: 8px;
+        flex-grow: 2;
     }
 
     h3 {
@@ -147,7 +153,7 @@
 /* Breakpoints */
 
 @media (max-width: 746px) {
-    .js-card {
+    .card {
         max-width: none;
         &__corners {
             display: none;

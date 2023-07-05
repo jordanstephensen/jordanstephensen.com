@@ -1,6 +1,6 @@
 @import '../../styles/_colors.scss';
 
-.js-footer {
+.footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -15,7 +15,7 @@
   background: $js-colors__alpha__dark--2;
   backdrop-filter: blur(10px);
 
-  &-contents {
+  &__contents {
     max-width: 960px;
     width: 100vw;
     display: flex;
@@ -23,24 +23,26 @@
     justify-content: space-between;
     align-items: baseline;
     margin: auto;
+  }
 
-    &__copyright {
-      flex-grow: 1;
-      color: $js-colors__base__white;
-    }
-  
-    &__links a {
-      box-shadow: none;
-      flex-grow: 1;
-      padding-top: 13px;
-    }
+  &__copyright {
+    flex-grow: 1;
+    color: $js-colors__base__white;
+  }
+
+  &__links a {
+    box-shadow: none;
+    flex-grow: 1;
+    padding-top: 13px;
   }
 }
 
 /* Media Queries */
 
 @media (max-width: 1111px) {
-  .js-footer-contents {
-    padding: 1rem;
+  .footer {
+    &__contents {
+      padding: 1rem;
+    }
   }
 }

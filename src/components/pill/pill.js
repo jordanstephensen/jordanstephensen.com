@@ -4,7 +4,7 @@ import React from "react"
 import './pill.scss'
 
 const Pill = ({ className, label }) => (
-        <h6 className={`pill ${className}`}>{label}</h6> 
+        <small className={`pill ${className}`}>{label}</small> 
 )
 
 Pill.propTypes = {

@@ -6,13 +6,13 @@ import './filter.scss'
 const Filter = ({ label, onClick, active }) => (
   <div 
     className={ active ? 
-      `js-filter js-filter--${label} js-filter--active`
+      `filter filter--${label} filter--active`
       :
-      `js-filter js-filter--${label}`
+      `filter filter--${label}`
     }
     onClick={onClick}
   >
-    <div className="js-filter__color"/>
+    <div className="filter__color"/>
     <p>{label}</p>
   </div>
 )

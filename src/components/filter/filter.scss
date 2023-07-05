@@ -1,6 +1,6 @@
 @import '../../styles/_colors.scss';
 
-.js-filter {
+.filter {
     color: $js-colors__text__light--primary;
     font-weight: 500;
     text-decoration: none;
@@ -25,7 +25,7 @@
       color: $js-colors__text__dark--primary;
       transition: ease-out 0.2s;
 
-      .js-filter__color {
+      .filter__color {
         background-color: $js-colors__base__black;
       }
     }
@@ -40,15 +40,15 @@
       box-shadow: inset 0px 0px 0px 40px $js-colors__category--all;
       color: $js-colors__text__dark--primary;
 
-      .js-filter__color {
+      .filter__color {
         background-color: $js-colors__base__black;
       }
 
-      &.js-filter {
+      &.filter {
         &--UXUI {
           box-shadow: inset 0px 0px 0px 40px $js-colors__category--uxui;
 
-          .js-filter__color {
+          .filter__color {
             background-color: $js-colors__base__black;
           }
         }
@@ -56,7 +56,7 @@
         &--Iconography {
           box-shadow: inset 0px 0px 0px 40px $js-colors__category--iconography;
 
-          .js-filter__color {
+          .filter__color {
             background-color: $js-colors__base__black;
           }
         }
@@ -64,7 +64,7 @@
         &--Branding {
           box-shadow: inset 0px 0px 0px 40px $js-colors__category--branding;
 
-          .js-filter__color {
+          .filter__color {
             background-color: $js-colors__base__black;
           }
         }
@@ -72,7 +72,7 @@
         &--Typography {
           box-shadow: inset 0px 0px 0px 40px $js-colors__category--typography;
 
-          .js-filter__color {
+          .filter__color {
             background-color: $js-colors__base__black;
           }
         }
@@ -80,7 +80,7 @@
         &--3D {
           box-shadow: inset 0px 0px 0px 40px $js-colors__category--3d;
 
-          .js-filter__color {
+          .filter__color {
             background-color: $js-colors__base__black;
           }
         }
@@ -89,7 +89,7 @@
     }
 
     &--UXUI {
-      .js-filter {
+      .filter {
         &__color {
           background-color: $js-colors__category--uxui;
         }
@@ -103,14 +103,14 @@
         color: $js-colors__category--uxui;
         box-shadow: inset 0px 0px 0px 1px $js-colors__category--uxui;
   
-        .js-filter__color {
+        .filter__color {
           background-color: $js-colors__category--uxui;
         }
       }
     }
 
     &--Iconography {
-      .js-filter {
+      .filter {
         &__color {
           background-color: $js-colors__category--iconography;
         }
@@ -124,14 +124,14 @@
         color: $js-colors__category--iconography;
         box-shadow: inset 0px 0px 0px 1px $js-colors__category--iconography;
   
-        .js-filter__color {
+        .filter__color {
           background-color: $js-colors__category--iconography;
         }
       }
     }
 
     &--Branding {
-      .js-filter {
+      .filter {
         &__color {
           background-color: $js-colors__category--branding;
         }
@@ -145,14 +145,14 @@
         color: $js-colors__category--branding;
         box-shadow: inset 0px 0px 0px 1px $js-colors__category--branding;
   
-        .js-filter__color {
+        .filter__color {
           background-color: $js-colors__category--branding;
         }
       }
     }
 
     &--Typography {
-      .js-filter {
+      .filter {
         &__color {
           background-color: $js-colors__category--typography;
         }
@@ -166,14 +166,14 @@
         color: $js-colors__category--typography;
         box-shadow: inset 0px 0px 0px 1px $js-colors__category--typography;
   
-        .js-filter__color {
+        .filter__color {
           background-color: $js-colors__category--typography;
         }
       }
     }
 
     &--3D {
-      .js-filter {
+      .filter {
         &__color {
           background-color: $js-colors__category--3d;
         }
@@ -187,7 +187,7 @@
         color: $js-colors__category--3d;
         box-shadow: inset 0px 0px 0px 1px $js-colors__category--3d;
   
-        .js-filter__color {
+        .filter__color {
           background-color: $js-colors__category--3d;
         }
       }
