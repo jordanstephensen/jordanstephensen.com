@@ -14,11 +14,11 @@ const BarEclipse = () => (
   <Layout title="Bar Eclipse">
     <SEO title="Bar Eclipse" />
     <div className="contents__container">
-        <div className="contents__container-column--2">
+        <div className="contents__container-column--3">
             <h4>Year</h4>
             <p>2023</p>
         </div>
-        <div className="contents__container-column--2">
+        <div className="contents__container-column--3">
             <h4>Scope</h4>
             <p>
                 <li>Scene construction</li>
@@ -28,7 +28,7 @@ const BarEclipse = () => (
                 <li>Liquor labels</li>
             </p>
         </div>
-        <div className="contents__container-column--2">
+        <div className="contents__container-column--3">
             <h4>Tools used</h4>
             <p>
                 <li>Blender</li>
@@ -41,8 +41,7 @@ const BarEclipse = () => (
     <img className="contents__container" src={bartop} alt="A render of the bartop of Bar Eclipse"/>
     <div className="contents__container--vertical">
       <h3>Conceptualization</h3>
-      <p>Especially inspired by the vivid, atmospheric scenes found in Wong Kar-wai’s films (I had just seen Happy Together for the first time), I wanted to create a scene that felt rich and intriguing.</p>
-      <p>Apartment balconies above the bar, back rooms you can only catch a glimpse of, a cigarette left at the bartop — I wanted the scene to feel as if it was full of stories despite being empty.</p>
+      <p>Especially inspired by the vivid, atmospheric scenes found in Wong Kar-wai’s films (I had just seen Happy Together for the first time), I wanted to create a scene that felt rich and intriguing. Apartment balconies above the bar, back rooms you can only catch a glimpse of, a cigarette left at the bartop — I wanted the scene to feel as if it was full of stories despite being empty.</p>
       <p>This project was also fully an excuse to experiment with a neon-soaked 1980’s dive bar aesthetic. This meant touching on 80’s graffiti styles (specifically referencing graffiti styles from NYC), beer and liquor labels, and various signage for the bar.</p>
     </div>
     <img className="contents__container" src={fullscene} alt="A full-scene render of Bar Eclipse"/>
