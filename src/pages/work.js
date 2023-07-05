@@ -122,7 +122,7 @@ const Work = ({  }) => {
             year="Ongoing"
           >
             <small>
-              An archive of mostly open-source UXUI tools and resources. Add to this occasionally, it's in need of an overhaul.
+              An archive of mostly open-source UXUI tools and resources. Updated periodically.
             </small>
           </Card>
 

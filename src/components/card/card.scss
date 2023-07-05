@@ -3,6 +3,7 @@
 .js-card {
     flex: 1 1 350px;
     width: 100%;
+    max-width: 452px;
     height: 500px;
     background: rgba(255, 255, 255, 0.0);
     backdrop-filter: blur(5px);
@@ -145,8 +146,9 @@
 
 /* Breakpoints */
 
-@media (max-width: 666px) {
+@media (max-width: 746px) {
     .js-card {
+        max-width: none;
         &__corners {
             display: none;
         }
