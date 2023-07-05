@@ -18,49 +18,49 @@ body {
   margin: 0px;
 }
 
-.inner-peace {
-  &__text {
-    text-align: center;
-    color: $js-colors__base__white;
-    margin: auto;
-  }
+// .inner-peace {
+//   &__text {
+//     text-align: center;
+//     color: $js-colors__base__white;
+//     margin: auto;
+//   }
 
-  &__glow {
-    &--outer {
-      display: flex;
-      justify-content: center;
-      align-items: center;  
-      animation: animatedGradient 18s infinite;
-      width: 100vw;
-      height: 100vh;
-    }
+//   &__glow {
+//     &--outer {
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;  
+//       animation: animatedGradient 18s infinite;
+//       width: 100vw;
+//       height: 100vh;
+//     }
 
-    &--inner {
-      position: absolute;
-      border-radius: 10vw;
-      filter: blur(100px);
-      width: 70vw;
-      height: 70vh;
-      animation: animatedGradient 10s infinite;
-    }
-  }
-}
+//     &--inner {
+//       position: absolute;
+//       border-radius: 10vw;
+//       filter: blur(100px);
+//       width: 70vw;
+//       height: 70vh;
+//       animation: animatedGradient 10s infinite;
+//     }
+//   }
+// }
 
-@keyframes animatedGradient {
-  0%{background:#f79533}
-  12%{background:#f37055 }
-  24%{background:#ef4e7b }
-  36%{background: #a166ab}
-  48%{background: #5073b8}
-  60%{background: #1098ad}
-  72%{background: #07b39b}
-  84%{background: #6fba82}
-  100%{background: #f79533}
-}
+// @keyframes animatedGradient {
+//   0%{background:#f79533}
+//   12%{background:#f37055 }
+//   24%{background:#ef4e7b }
+//   36%{background: #a166ab}
+//   48%{background: #5073b8}
+//   60%{background: #1098ad}
+//   72%{background: #07b39b}
+//   84%{background: #6fba82}
+//   100%{background: #f79533}
+// }
 
-.secrets {
-  visibility: hidden;
-}
+// .secrets {
+//   visibility: hidden;
+// }
 
 .contents {
   max-width: 960px;
@@ -95,23 +95,24 @@ body {
     &--vertical {
       flex-flow: column nowrap;
     }
+  }
 
-    &-column {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
+  &__column {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 
-      &--2 {
-        max-width: 470px;
-        flex: 1 1 350px;
-      }
+    &--2 {
+      max-width: 470px;
+      flex: 1 1 350px;
+    }
 
-      &--3 {
-        max-width: 300px;
-        flex: 1 1 260px;
-      }
+    &--3 {
+      max-width: 300px;
+      flex: 1 1 260px;
     }
   }
+
 }
 
 .image {
@@ -121,37 +122,14 @@ body {
 }
 
 .icon {
-  &-popout,
-  &-mail {
+  &--popout,
+  &--mail {
     height: 0.6em;
     width: 0.6em;  
   }
 }
 
-.text {
-  &--primary {
-    color: $js-colors__text__light--primary;
-  }
-
-  &--secondary {
-    color: $js-colors__text__light--secondary;
-  }
-
-  &--tertiary {
-    color: $js-colors__text__light--tertiary;
-  }
-
-  &--caption {
-    color: $js-colors__text__light--tertiary;
-    padding-bottom: 16px;
-    margin-bottom: 32px;
-    border-bottom: 1px solid $js-colors__alpha__light--3;
-    width: 100%;
-    display: block;
-  }
-}
-
-.js-projects {
+.js-work {
   display: flex;
   gap: 24px;
   flex-flow: column nowrap;
@@ -170,47 +148,57 @@ body {
     max-width: 960px;
 
     &--uxui {
-      .js-projects__card-container__card--branding,
-      .js-projects__card-container__card--typography,
-      .js-projects__card-container__card--3d,
-      .js-projects__card-container__card--iconography {
-        display: none;
+      .js-work__card {
+        &--branding,
+        &--typography,
+        &--3d,
+        &--iconography {
+          display: none;
+        }
       }
     }
 
     &--branding {
-      .js-projects__card-container__card--uxui,
-      .js-projects__card-container__card--typography,
-      .js-projects__card-container__card--3d,
-      .js-projects__card-container__card--iconography {
-        display: none;
+      .js-work__card {
+        &--uxui,
+        &--typography,
+        &--3d,
+        &--iconography {
+          display: none;
+        }
       }
     }
 
     &--typography {
-      .js-projects__card-container__card--uxui,
-      .js-projects__card-container__card--branding,
-      .js-projects__card-container__card--3d,
-      .js-projects__card-container__card--iconography {
-        display: none;
+      .js-work__card {
+        &--uxui,
+        &--branding,
+        &--3d,
+        &--iconography {
+          display: none;
+        }
       }
     }
 
     &--iconography {
-      .js-projects__card-container__card--uxui,
-      .js-projects__card-container__card--branding,
-      .js-projects__card-container__card--3d,
-      .js-projects__card-container__card--typography {
-        display: none;
+      .js-work__card {
+        &--uxui,
+        &--branding,
+        &--3d,
+        &--typography {
+          display: none;
+        }
       }
     }
 
     &--3d {
-      .js-projects__card-container__card--uxui,
-      .js-projects__card-container__card--branding,
-      .js-projects__card-container__card--iconography,
-      .js-projects__card-container__card--typography {
-        display: none;
+      .js-work__card {
+        &--uxui,
+        &--branding,
+        &--iconography,
+        &--typography {
+          display: none;
+        }
       }
     }
   }

@@ -20,37 +20,37 @@ const TypeSketchbook = () => (
   <Layout title="Type Sketch&shy;book">
     <SEO title="Type Sketchbook" />
     <div className="contents__container">
-      <div className="contents__container-column--2">
+      <div className="contents__column--2">
         <h3>Ongoing<br/></h3>
       </div>
-      <div className="contents__container-column--2">
+      <div className="contents__column--2">
         <p>Various custom type explorations.</p> 
         <p>Some of these have evolved into full fonts, some were explorations for branding projects, some were just for fun.</p>
       </div>
     </div>
     <div className="contents__container" >
-        <img className="contents__container-column--2" src={coin} alt="Typography exploration"/>
-        <img className="contents__container-column--2" src={ekos1} alt="Typography exploration"/>
+        <img className="contents__column--2" src={coin} alt="Typography exploration"/>
+        <img className="contents__column--2" src={ekos1} alt="Typography exploration"/>
     </div>
     <div className="contents__container" >
-        <img className="contents__container-column--2" src={maan} alt="Typography exploration"/>
-        <img className="contents__container-column--2" src={nevermind} alt="Typography exploration"/>
+        <img className="contents__column--2" src={maan} alt="Typography exploration"/>
+        <img className="contents__column--2" src={nevermind} alt="Typography exploration"/>
     </div>
     <div className="contents__container" >
-        <img className="contents__container-column--2" src={ekos2} alt="Typography exploration"/>
-        <img className="contents__container-column--2" src={traits} alt="Typography exploration"/>
+        <img className="contents__column--2" src={ekos2} alt="Typography exploration"/>
+        <img className="contents__column--2" src={traits} alt="Typography exploration"/>
     </div>
     <div className="contents__container" >
-        <img className="contents__container-column--2" src={ekos3} alt="Typography exploration"/>
-        <img className="contents__container-column--2" src={positive} alt="Typography exploration"/>
+        <img className="contents__column--2" src={ekos3} alt="Typography exploration"/>
+        <img className="contents__column--2" src={positive} alt="Typography exploration"/>
     </div>
     <div className="contents__container" >
-        <img className="contents__container-column--2" src={razor} alt="Typography exploration"/>
-        <img className="contents__container-column--2" src={refresh} alt="Typography exploration"/>
+        <img className="contents__column--2" src={razor} alt="Typography exploration"/>
+        <img className="contents__column--2" src={refresh} alt="Typography exploration"/>
     </div>
     <div className="contents__container" >
-        <img className="contents__container-column--2" src={singularity} alt="Typography exploration"/>
-        <img className="contents__container-column--2" src={player} alt="Typography exploration"/>
+        <img className="contents__column--2" src={singularity} alt="Typography exploration"/>
+        <img className="contents__column--2" src={player} alt="Typography exploration"/>
     </div>
   </Layout>
 )

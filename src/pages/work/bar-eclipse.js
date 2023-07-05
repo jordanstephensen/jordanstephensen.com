@@ -14,11 +14,11 @@ const BarEclipse = () => (
   <Layout title="Bar Eclipse">
     <SEO title="Bar Eclipse" />
     <div className="contents__container">
-        <div className="contents__container-column--3">
+        <div className="contents__column--3">
             <h4>Year</h4>
             <p>2023</p>
         </div>
-        <div className="contents__container-column--3">
+        <div className="contents__column--3">
             <h4>Scope</h4>
             <p>
                 <li>Scene construction</li>
@@ -28,7 +28,7 @@ const BarEclipse = () => (
                 <li>Liquor labels</li>
             </p>
         </div>
-        <div className="contents__container-column--3">
+        <div className="contents__column--3">
             <h4>Tools used</h4>
             <p>
                 <li>Blender</li>

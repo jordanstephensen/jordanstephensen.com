@@ -25,29 +25,29 @@ const LogoPortfolio = () => (
   <Layout title="Logo Portfolio">
     <SEO title="Logo Portfolio" />
     <div className="contents__container">
-      <div className="contents__container-column--2">
+      <div className="contents__column--2">
         <h3>Ongoing<br/></h3>
       </div>
-      <div className="contents__container-column--2">
+      <div className="contents__column--2">
         <p>A selection of logos from between 2015–2022</p> 
       </div>
     </div>
     <div className="contents__container" >
-        <img className="contents__container-column--3" src={crabapple} alt="The Crabapple Tree logo"/>
-        <img className="contents__container-column--3" src={charles} alt="The Charles Condo logo"/>
-        <img className="contents__container-column--3" src={mitchell} alt="The Mitchell Block logo"/>
-        <img className="contents__container-column--3" src={landf} alt="Lost and Found logo"/>
-        <img className="contents__container-column--3" src={ov} alt="OV Club logo"/>
-        <img className="contents__container-column--3" src={albert} alt="Albert Street Cocktail Company logo"/>
-        <img className="contents__container-column--3" src={ysl} alt="Y$L logo"/>
-        <img className="contents__container-column--3" src={endive} alt="Endive logo"/>
-        <img className="contents__container-column--3" src={truflo} alt="TruFlo logo"/>
-        <img className="contents__container-column--3" src={soi} alt="So Over It logo"/>
-        <img className="contents__container-column--3" src={msp} alt="MSP logo"/>
-        <img className="contents__container-column--3" src={wayhii} alt="WayHii logo"/>
-        <img className="contents__container-column--3" src={nomad} alt="Nomad logo"/>
-        <img className="contents__container-column--3" src={sneath} alt="Sneath logo"/>
-        <img className="contents__container-column--3" src={sv} alt="SV logo"/>
+        <img className="contents__column--3" src={crabapple} alt="The Crabapple Tree logo"/>
+        <img className="contents__column--3" src={charles} alt="The Charles Condo logo"/>
+        <img className="contents__column--3" src={mitchell} alt="The Mitchell Block logo"/>
+        <img className="contents__column--3" src={landf} alt="Lost and Found logo"/>
+        <img className="contents__column--3" src={ov} alt="OV Club logo"/>
+        <img className="contents__column--3" src={albert} alt="Albert Street Cocktail Company logo"/>
+        <img className="contents__column--3" src={ysl} alt="Y$L logo"/>
+        <img className="contents__column--3" src={endive} alt="Endive logo"/>
+        <img className="contents__column--3" src={truflo} alt="TruFlo logo"/>
+        <img className="contents__column--3" src={soi} alt="So Over It logo"/>
+        <img className="contents__column--3" src={msp} alt="MSP logo"/>
+        <img className="contents__column--3" src={wayhii} alt="WayHii logo"/>
+        <img className="contents__column--3" src={nomad} alt="Nomad logo"/>
+        <img className="contents__column--3" src={sneath} alt="Sneath logo"/>
+        <img className="contents__column--3" src={sv} alt="SV logo"/>
     </div>
   </Layout>
 )

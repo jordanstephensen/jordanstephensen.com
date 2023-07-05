@@ -18,13 +18,13 @@ const HealthIcons = () => (
   <Layout title="Health Icons">
     <SEO title="Health Icons" />
     <div className="contents__container">
-      <div className="contents__container-column--2">
+      <div className="contents__column--2">
         <h3>Open-source<br/>
         CC0 License<br/><br/>
           <Link href="https://healthicons.org/" target="_blank">Project Website</Link>
         </h3>
       </div>
-      <div className="contents__container-column--2">
+      <div className="contents__column--2">
         <big>
         Health Icons is a volunteer effort, hosted by public health not-for-profit <Link href="https://resolvetosavelives.org/" target="_blank" >Resolve to Save Lives</Link>. These icons are available in the public domain for use in any type of project.
         <br/><br/></big>
@@ -60,8 +60,8 @@ const HealthIcons = () => (
     <img className="contents__container" src={figma} alt="Health Icons Figma Plugin"/>
     <small className="text--caption">The entire Health Icons library is available as a <Link href="https://www.figma.com/community/plugin/992844281461869440/Health-Icons-Figma-Plugin" target="_blank">Figma plugin</Link></small>
     <div className="contents__container">
-      <img className="contents__container-column--2" src={use} alt="Health Icons in use on Alloy Health's website"/>
-      <img className="contents__container-column--2" src={conference} alt="Health Icons in use in a presentation at the DHIS2 Conference"/>
+      <img className="contents__column--2" src={use} alt="Health Icons in use on Alloy Health's website"/>
+      <img className="contents__column--2" src={conference} alt="Health Icons in use in a presentation at the DHIS2 Conference"/>
     </div>
     <small className="text--caption">Icons in use: Health Icons used on <Link href="https://www.alloy.health/healthcareos" target="_blank">Alloy Health's website</Link> and in a presentation at the DHIS2 Conference</small>
   </Layout>

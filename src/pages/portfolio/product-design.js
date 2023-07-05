@@ -14,17 +14,17 @@ const Bold = () => (
   <Layout title="Product Design Portfolio">
     <SEO title="Product Design Portfolio" />
     <div className="contents__container">
-      <div className="contents__container-column--2">
-        <big className="h-text--intro">Bold Commerce is a Winnipeg-based ecommerce company focused on providing merchants of all sizes with flexible and powerful checkout solutions.</big>
+      <div className="contents__column--2">
+        <big className="text--intro">Bold Commerce is a Winnipeg-based ecommerce company focused on providing merchants of all sizes with flexible and powerful checkout solutions.</big>
       </div>
-      <div className="contents__container-column--2">
+      <div className="contents__column--2">
         <p>
           I’ve spent the last four years at Bold Commerce specializing in ecommerce software design. During my time there, I saw a number of features through from conceptualization to launch in several Bold products. This included leading user research initiatives, usability testing, UI design and handoff, and front-end code contributions.
         </p>
         <p>
           I also led a redesign of our design system, implemented theming in the system, overhauled our icon library twice, and took part in Bold's mentorship program as a mentor.
         </p>
-        <big>Case studies coming soon — until then, feel free to <a href="mailto:jordanstephensen@gmail.com" target="_blank" rel="noreferrer">reach out<img className="icon-mail link-icon" src={mail} alt="mail icon"/></a> for product design work samples.</big>
+        <big>Case studies coming soon — until then, feel free to <a href="mailto:jordanstephensen@gmail.com" target="_blank" rel="noreferrer">reach out<img className="icon--mail link-icon" src={mail} alt="mail icon"/></a> for product design work samples.</big>
         <p>
         Below are two case studies from my time at Bold.
         </p>

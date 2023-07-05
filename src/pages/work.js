@@ -29,8 +29,8 @@ const Work = ({  }) => {
   return (
     <Layout title="Work">
       <SEO title="Work" />
-      <div className="js-projects">
-        <div className="js-projects__filters">
+      <div className="js-work">
+        <div className="js-work__filters">
           <Filter 
             label="All"
             name='all'
@@ -71,19 +71,19 @@ const Work = ({  }) => {
         <div 
           className={
             cn([
-              'js-projects__card-container',
+              'js-work__card-container',
               {
-                'js-projects__card-container--uxui': active === 'uxui',
-                'js-projects__card-container--iconography': active === 'iconography',
-                'js-projects__card-container--branding': active === 'branding',
-                'js-projects__card-container--typography': active === 'typography',
-                'js-projects__card-container--3d': active === '3d',
+                'js-work__card-container--uxui': active === 'uxui',
+                'js-work__card-container--iconography': active === 'iconography',
+                'js-work__card-container--branding': active === 'branding',
+                'js-work__card-container--typography': active === 'typography',
+                'js-work__card-container--3d': active === '3d',
               }
             ])
           }
         >
           <Card 
-            className='js-projects__card-container__card--uxui'
+            className='js-work__card--uxui'
             image={jsthumb}
             link="https://github.com/jordanstephensen/jordanstephensen.com"
             target="_blank"
@@ -98,7 +98,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--uxui'
+            className='js-work__card--uxui'
             image={boldthumb}
             link="/work/bold"
             title="Bold Commerce Case Studies"
@@ -112,7 +112,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--uxui'
+            className='js-work__card--uxui'
             image={uxuithumb}
             link="https://uxui.com"
             target="_blank"
@@ -127,7 +127,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--iconography'
+            className='js-work__card--iconography'
             image={healthiconsthumb}
             link="/work/health-icons"
             title="Health Icons"
@@ -141,7 +141,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--iconography'
+            className='js-work__card--iconography'
             image={gestureiconsthumb}
             link="/work/gesture-icons"
             title="Gesture Icons"
@@ -155,7 +155,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--branding'
+            className='js-work__card--branding'
             image={logothumb}
             link="/work/logo-portfolio"
             title="Logo Portfolio"
@@ -169,7 +169,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--branding'
+            className='js-work__card--branding'
             image={mspthumb}
             link="https://www.behance.net/gallery/78359409/Mercury-Specialty-Products"
             target="_blank"
@@ -184,7 +184,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--branding'
+            className='js-work__card--branding'
             image={ovthumb}
             link="https://www.behance.net/gallery/170860669/OV-Club-Branding"
             target="_blank"
@@ -199,7 +199,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--typography'
+            className='js-work__card--typography'
             image={typethumb}
             link="/work/type-sketchbook"
             title="Type Sketchbook"
@@ -213,7 +213,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--typography'
+            className='js-work__card--typography'
             image={eternalthumb}
             link="/work/eternal"
             title="Eternal"
@@ -227,7 +227,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--typography'
+            className='js-work__card--typography'
             image={keysthumb}
             link="/work/keys"
             title="Keys"
@@ -241,7 +241,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--typography'
+            className='js-work__card--typography'
             image={agourathumb}
             link="/work/agoura"
             title="Agoura"
@@ -255,7 +255,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--3d'
+            className='js-work__card--3d'
             image={threedthumb}
             link="/work/3d-sketchbook"
             title="3D Sketchbook"
@@ -269,7 +269,7 @@ const Work = ({  }) => {
           </Card>
 
           <Card 
-            className='js-projects__card-container__card--3d'
+            className='js-work__card--3d'
             image={eclipsethumb}
             link="/work/bar-eclipse"
             title="Bar Eclipse"

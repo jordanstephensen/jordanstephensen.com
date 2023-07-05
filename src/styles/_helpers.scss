@@ -1,3 +1,26 @@
-.h-text--intro {
-    @extend h3;
-}
+.text {
+    &--primary {
+      color: $js-colors__text__light--primary;
+    }
+  
+    &--secondary {
+      color: $js-colors__text__light--secondary;
+    }
+  
+    &--tertiary {
+      color: $js-colors__text__light--tertiary;
+    }
+  
+    &--caption {
+      color: $js-colors__text__light--tertiary;
+      padding-bottom: 16px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid $js-colors__alpha__light--3;
+      width: 100%;
+      display: block;
+    }
+
+    &--intro {
+        @extend h3;
+    }
+  }

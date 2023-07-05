@@ -13,13 +13,13 @@ const Eternal = () => (
   <Layout title="Eternal Mono">
     <SEO title="Eternal Monospace Display Font" />
     <div className="contents__container">
-      <div className="contents__container-column--2">
+      <div className="contents__column--2">
         <h3>Open-source<br/>
           SIL Open Font License 1.1<br/><br/>
           <Link href="https://github.com/jordanstephensen/eternal-mono" target="_blank">Source Files</Link>
         </h3>
       </div>
-      <div className="contents__container-column--2">
+      <div className="contents__column--2">
         <p>
           Just a fun display mono.<br/><br/>
           Limited character set for now. Alphabet, numbers, some symbols. May add to this in the future.<br/><br/>
